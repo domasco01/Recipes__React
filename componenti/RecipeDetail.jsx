@@ -1,0 +1,125 @@
+import { useEffect, useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import Card from "./Card";
+export default function RecipeDetail(){
+
+    const params = useParams();
+	console.log(params);
+    const [recipe, setRecipe] = useState(null);
+    const [recipeType, setRecipeType]= useState(null);
+    const [recipesArray, setRecipesArray] = useState([]);
+
+    //Primo effetto. Creo una funzione che con fetch e useParams recupera la ricetta selezionata, che verrà assegnata allo stato recipe.
+    //Inoltre verrà salvato il tipo della ricetta che servirà dopo per consigliare ricette dello stesso tipo.
+
+    useEffect(()=>{
+        const controller = new AbortController(); // Crea un nuovo AbortController
+        const signal = controller.signal; // Ottieni il segnale di abort
+        
+        async function fetchRecipeDetail() {
+            const request = await fetch(`http://localhost:3002/api/recipes/${params.id}`)
+            const data = await request.json();
+            console.log(data)
+            setRecipe(data)
+            setRecipeType(data.type)
+        }
+        fetchRecipeDetail();
+
+        //Funzione di pulizia
+        return () => {
+            controller.abort(); // Annulla la richiesta in corso
+        };
+    },[params.id])
+
+
+    //Secondo effetto. Creo una funzione che recupera tutte le ricette. Questa funzione mi servirà per poi andare a consigliare solo le ricette simili a quella attuale.
+    useEffect(()=>{
+        async function fetchAllRecipes(){
+            const request = await fetch("http://localhost:3002/api/data");
+            const data = await request.json();
+            setRecipesArray(data);
+        }
+
+        fetchAllRecipes()
+
+    },[])
+
+    return(
+        <div id="recipeDetail">
+            <div id="recipeDetail-name">
+                {/* TITOLO DELLA RICETTA */}
+                {recipe ? <h1 className="recipeDetail-title">{recipe.name}</h1>   : <p>Caricamento...</p>} 
+                    
+            </div>
+            <div id="recipeDetail-1">
+                <div id="recipeDetail-11">
+                    <div id="recipeDetail-111">
+                        {/* LISTA INGREDIENTI */}
+                        <h2>INGREDIENTI</h2>
+                        <br />
+                        <ul className="lista-ingredienti">
+                            {
+                                recipe ?
+                                    (recipe.ingredients.map(ing=>(
+                                        <li><b>{ing}</b></li>
+                                    )))
+                                :
+                                    (<p>Caricamento...</p>)
+
+                            }
+                        </ul>
+                    </div>
+                    <div id="recipeDetail-112">
+                        <h2>NOTE</h2>
+                        {/* NOTE DELLA RICETTA */}
+                        <br />
+                        {recipe ? <p>{recipe.notes}</p> : <p>Caricamento...</p>}
+                    </div>
+                    
+                </div>
+                <div id="recipeDetail-12">
+                    <div className="prepTime-container">
+                        {/* TEMPO DI PREPARAZIONE E DI COTTURA */}
+                        <div className="prepTime">
+                            <h2>Tempo di Preparazione</h2><br/>
+                            {recipe ? <p>{recipe.prepTime}</p> : <p>Caricamento...</p>}
+                        </div>
+                        <div className="cookTime">
+                            <h2>Tempo di Cottura</h2><br/>
+                            {recipe ? <p>{recipe.cookingTime}</p> : <p>Caricamento...</p>}
+                        </div>
+                    </div>
+                    <div className="img-recipe-container">
+                        {/* IMMAGINE RICETTA */}
+                        {recipe ? <img src={recipe.imgUrl} alt="foto ricetta" /> : <p>Caricamento...</p>}
+                    </div>
+                    <div id="recipeDetail-istructions">
+                        <h2>ISTRUZIONI</h2> <br/>
+                        { recipe ? <p>{recipe.instructions}</p> : <p>Caricamento...</p>}
+                    </div>
+                </div>
+            </div>
+
+            <h1 className="ricette-simili-h1">RICETTE SIMILI</h1>
+            <div id="recipeDetail-2">
+                
+                    {
+                        recipe ? 
+                                // Creazione di un nuovo array filtrato con le ricette dello stesso tipo di quella attuale.
+                            recipesArray.filter( rec=> rec.type === recipeType)
+                                //Creo un array con solo le prime 3 dell'array filtrato.
+                            .slice(0,3)
+                                //Per ogni elemento creo un link formato dal componente Card
+                            .map(rec =>(
+                                <Link to={`/recipes/${rec.id}`} key={rec.id} onClick={window.scrollTo({ top: 0, behavior: 'smooth' })} ><Card imgUrl={rec.imgUrl}  name={rec.name} />    </Link>
+                            ))
+                        :
+                        <p>Caricamento...</p>
+                    }
+                
+                
+                
+            </div>
+        </div>
+    )
+}

@@ -1,0 +1,521 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color:#1b1b1b;
+    overflow-y:scroll;
+
+}
+
+
+header{
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 0 7vw;
+    font-weight:500;
+    background-color:white;
+}
+
+header a{
+    text-decoration:none;
+    color:#1b1b1b;
+}
+
+
+
+.navigation{
+    display:flex;
+    justify-content:center;
+    gap:3vw;
+}
+
+.menu-link{
+    font-weight:600;
+}
+
+.link-active { 
+    border-bottom:2px solid #FEBD2F;
+    font-weight:600;
+}
+
+
+
+.side-link-container1, .side-link-container2 {
+    width:20%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    gap:2vw;
+}
+
+.side-link-container1{
+    justify-content:flex-start;
+}
+
+.side-link-container2{
+    justify-content:flex-end;
+}
+
+
+
+.sign-up-link{
+    height:70px;
+    width:140px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    border-radius:35px;
+}
+.side-link-container2 a, .sign-up-btn{
+    padding: 5% 5%;
+}
+
+.sign-up-btn{
+    color:white;
+}
+
+.home-container1{
+    width:100%;
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    background-color:white;
+}
+
+.home-container11{
+    width:85%;
+    height:90%;
+    border-radius:30px;
+    background-image:url("images/foto-cibo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.home-container12{
+    width:50%;
+    height:70%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    gap:3%;
+    color:white;
+}
+.home-container12 h1{
+    font-size:90px;
+}
+
+.home-container12 p{
+    font-size:20px;
+    text-align:center;
+}
+
+.home-container12 a{
+    padding: 20px 60px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    border-radius:35px;
+    font-weight:600;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-container2,.home-container4, .home-container6{
+    width:100%;
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    font-size:25px;
+    background-color:white;
+    padding-top:5%;
+}
+
+
+
+.right-arrow{
+    width:25px;
+    height:25px;
+    color:#1b1b1b;
+    padding:10px;
+    background-color:#FEBD2F;
+    border-radius:50%;
+    font-size:18px;
+}
+.card-link-container{
+    margin-top:3%;
+    width:100%;
+    height:70%;
+    display:flex;
+    justify-content:center;
+    gap:5%;
+}
+.card-link{
+    width:350px;
+    height:280px;
+    border-radius:30px;
+}
+
+.card-link-name{
+    color:black;
+    font-size:22px;
+    margin-top:15px;
+    margin-left:5px;
+    font-weight:600;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.img-card-container img{
+    object-fit: cover; 
+    border-radius:30px;
+    width:350px;
+    height:200px;
+}
+
+.home-container3{
+    width:100%;
+    height:70vh;
+    background-color:#FDDC8A;
+    display:flex;
+}
+
+.home-container31{
+    width:40%;
+    height:100%;
+    padding:5%;
+    position:relative;
+    
+}
+
+
+.home-container31 p{
+    margin-top:5%;
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #333; 
+}
+
+.home-container31 a{
+    padding: 20px 60px;
+    background-color:#FEBD2F;
+    margin-top:30px;
+    text-decoration:none;
+    color:black;
+    border-radius:35px;
+    font-weight:600;
+    margin-top:30px;
+    position:absolute;
+    bottom:20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.home-container32{
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.home-container321, .home-container322{
+    width:100%;
+    height:50%;
+    display:flex;
+}
+
+.home-container3211{
+    width:25%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.contribution-container{
+    width:180px;
+    height:180px;
+    border-radius:60%;
+}
+
+.contribution-container img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:60%;
+}
+
+.contributor-name{
+    font-weight:600;
+    font-size:20px;
+}
+
+.contributor-role{
+    color:grey;
+    font-size:18px;
+}
+
+.home-container5{
+    width:100%;
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:center;
+    font-size:25px;
+    background-color:#FDDC8A;
+    padding-top:5%;
+}
+
+.right-arrow-black{
+    width:25px;
+    height:25px;
+    color:white;
+    padding:10px;
+    background-color:black;
+    border-radius:50%;
+    font-size:18px;
+}
+
+
+/* STILE FOOTER */
+
+.footer{
+    width:100%;
+    height:30vh;
+    background-color:#1b1b1b;
+    color:white;
+    display:flex;
+    margin-top:auto;
+}
+
+.footer-container1{
+    width:40%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:left;
+    gap:30px;
+    padding-left:4%;
+    
+
+}
+
+.footer-container1 h2{
+    margin-top:50px;
+    
+}
+
+
+
+#input-newsletter{
+    height:50px;
+    width:60%;
+    outline:none;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    border:none;
+    padding:2%;
+}
+
+#submit-newsletter{
+    height:50px;
+    width:100px;
+    background-color:#FEBD2F;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+    font-weight:600;
+    border:none;
+    cursor:pointer;
+}
+
+.footer-container2{
+    width:60%;
+    height:100%;
+    display:flex;
+}
+
+.footer-container2-1{
+    width:50%;
+    height:100%;
+    margin-top:50px;
+    margin-left:20%;
+}
+
+
+.footer-container2-1 li{
+    list-style-type:none;
+    margin-bottom:15px;
+}
+
+.footer-container2-1 li a{
+    color:white;
+}
+
+/* STILE PAGINA RICETTA SINGOLA */
+
+#recipeDetail{
+    width:100%;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+}
+
+
+#recipeDetail-name{
+    width:100%;
+    height:15%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.recipeDetail-title{
+    border-bottom:4px solid #FEBD2F;
+    /* font-size:50px; */
+}
+
+#recipeDetail-1{
+    width:100%;
+    /* height:80%; */
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:row;
+}
+
+#recipeDetail-11{
+    width:35%;
+    height:80vh;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    /* align-items:center; */
+    justify-content:flex-start;
+    gap:15%;
+    padding:3%;
+
+}
+
+.lista-ingredienti{
+    background-color:black;
+    width:60%;
+    color:white;
+    padding:3%;
+    border-radius:20px;
+}
+
+#recipeDetail-111 li{
+    /* border:1pùx solid red; */
+    margin-left:20px;
+    margin-bottom:10px;
+    font-size:22px;
+}
+
+#recipeDetail-112 p{
+    font-size:22px;
+    background-color:#FEBD2F;
+    padding:4%;
+    color:white;
+    border-radius:20px;
+    line-height:1.5;
+    font-weight:600;
+}
+
+
+#recipeDetail-12{
+    width:65%;
+    height:100%;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:left;
+    padding:2%;
+}
+
+.prepTime-container{
+    width:100%;
+    height:100px;
+    background-color:#FEBD2F;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-bottom:40px;
+    border-radius: 20px;
+}
+
+.prepTime, .cookTime{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white;
+}
+
+.prepTime p, .cookTime p{
+    font-size:22px;
+    font-weight:600;
+}
+
+.img-recipe-container{
+    height:550px;
+    width:100%;
+}
+
+.img-recipe-container img{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+}
+
+#recipeDetail-istructions{
+    width:90%;
+    margin-top:5%;
+}
+
+#recipeDetail-istructions p{
+    font-size:22px;
+    line-height:1.5;
+}
+
+#recipeDetail-2{
+    width:100%;
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5%;
+    margin-bottom:200px;
+}
+
+.ricette-consigliate{
+    width:20%;
+    height:80%;
+    
+}
+
+.ricette-simili-h1{
+    text-align:center;
+    margin-top:70px;
+    margin-bottom:40px;
+    font-size:40px;
+}
