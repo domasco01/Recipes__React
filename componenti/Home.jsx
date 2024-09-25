@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, useLoaderData } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from "react";
@@ -6,17 +6,19 @@ import Card from "./Card";
 
 export default function Home(){
 
-    const [riceps, setRiceps] = useState([]);
+    // const [riceps, setRiceps] = useState([]);
 
-    useEffect(()=>{
-        async function fetchRecipes() {
-            const request = await fetch("http://localhost:3002/api/data")
-            const data = await request.json();
-            console.log(data)
-            setRiceps(data)
-        }
-        fetchRecipes();
-    },[])
+    // useEffect(()=>{
+    //     async function fetchRecipes() {
+    //         const request = await fetch("http://localhost:3002/api/data")
+    //         const data = await request.json();
+    //         console.log(data)
+    //         setRiceps(data)
+    //     }
+    //     fetchRecipes();
+    // },[])
+
+    const riceps=useLoaderData();
 
     return(
         <>

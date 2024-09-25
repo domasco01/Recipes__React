@@ -82,7 +82,7 @@ header a{
     color:white;
 }
 
-.home-container1{
+.home-container1, .recipe-container1{
     width:100%;
     height:85vh;
     display:flex;
@@ -92,17 +92,31 @@ header a{
     background-color:white;
 }
 
-.home-container11{
+
+.recipe-container1 img{
+    width:40%;
+    height:70%;
+    margin-bottom:100px;
+}
+
+.home-container11, .recipe-container11{
     width:85%;
     height:90%;
     border-radius:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.home-container11{
     background-image:url("images/foto-cibo2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+}
+
+.recipe-container11{
+    background-color:#FEBD2F;
 }
 
 .home-container12{
