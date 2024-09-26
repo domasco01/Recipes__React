@@ -533,3 +533,76 @@ a{
     margin-bottom:40px;
     font-size:40px;
 }
+
+.recipe-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:white;
+}
+
+.recipe-container2{
+    width:90%;
+    height:100vh;
+    border:1px solid red;
+    background-color:white;
+    display:flex;
+}
+
+.recipe-container21{
+    width:20%;
+    height:100%;
+    border:1px solid red;
+    display:flex;
+    flex-direction:column;
+    justify-column:flex-start;
+    align-items:left;
+    gap:10%;
+}
+
+.recipe-container21 h2{
+    font-size:38px;
+}
+
+.lista-filtri{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* .lista-filtri a{
+    width:80%;
+    height:60px;
+    border-radius:50px;
+    border: 2px solid black;
+    padding:4%;
+    color:black;
+    font-size:25px;
+    font-weight:600;
+    background-color:white;
+
+} */
+.my-link-inactive{
+    background-color:white;
+    width:80%;
+    height:60px;
+    border-radius:50px;
+    border: 2px solid black;
+    padding:4%;
+    color:black;
+    font-size:25px;
+    font-weight:600;
+}
+.my-link-active{
+    background-color: #FEBD2F ;
+    width:80%;
+    height:60px;
+    border-radius:50px;
+    border: 2px solid black;
+    padding:4%;
+    color:black;
+    font-size:25px;
+    font-weight:600;
+}

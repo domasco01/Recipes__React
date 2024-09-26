@@ -1,9 +1,18 @@
-import { Link, useSearchParams } from "react-router-dom"
-
+import { useEffect } from "react"
+import { NavLink, useLoaderData, useSearchParams, Link } from "react-router-dom"
+import Card from "./Card"
 export default function Recipes(){
 
+    const recipes = useLoaderData();
+    const [searchParams, setSearchParams] = useSearchParams();
+
+    const typeFilter = searchParams.get("type");
+    const displayedRecipes = typeFilter ? recipes.filter(rec => rec.type === typeFilter) : recipes
+    console.log(displayedRecipes)
+
+
     return(
-        <>
+        <div className="recipe-container">
             <div className="recipe-container1">
                 <div className="recipe-container11">
                     <div className="home-container12">
@@ -18,16 +27,51 @@ export default function Recipes(){
             <div className="recipe-container2">
                 <div className="recipe-container21">
                     <h2>Recipes</h2>
-                    <div>
-                        <Link to="">Tutti</Link>
-                        <Link to="?type=Antipasto">Antipasti</Link>
-                        <Link to="?type=Primi">Primi</Link>
-                        <Link to="?type=Secondi">Secondi</Link>
-                        <Link to="?type=Dolci">Dolci</Link>
-                    </div>
+                    {/* <div className="lista-filtri">
+                        <NavLink to="."  className={({ isActive }) => (isActive ? "my-link-active" : "my-link-inactive")}>Tutti</NavLink>
+                        <NavLink to="?type=Antipasto"  className={({ isActive }) => (isActive ? "my-link-active" : "my-link-inactive")}>Antipasti</NavLink>
+                        <NavLink to="?type=Primo" className={({ isActive }) => (isActive ? "my-link-active" : "my-link-inactive")}>Primi</NavLink>
+                        <NavLink to="?type=Secondo" className={({ isActive }) => (isActive ? "my-link-active" : "my-link-inactive")}>Secondi</NavLink>
+                        <NavLink to="?type=Dolce" className={({ isActive }) => (isActive ? "my-link-active" : "my-link-inactive")}>Dolci</NavLink>
+                    </div> */}
+                    <div className="lista-filtri">
+    <NavLink 
+        to="."  
+        className={({ isActive }) => (isActive && !window.location.search ? "my-link-active" : "my-link-inactive")}
+        end
+    >
+        Tutti
+    </NavLink>
+    <NavLink 
+        to="?type=Antipasto"  
+        className={({ isActive }) => (isActive && window.location.search.includes("type=Antipasto") ? "my-link-active" : "my-link-inactive")}
+    >
+        Antipasti
+    </NavLink>
+    <NavLink 
+        to="?type=Primo" 
+        className={({ isActive }) => (isActive && window.location.search.includes("type=Primo") ? "my-link-active" : "my-link-inactive")}
+    >
+        Primi
+    </NavLink>
+    <NavLink 
+        to="?type=Secondo" 
+        className={({ isActive }) => (isActive && window.location.search.includes("type=Secondo") ? "my-link-active" : "my-link-inactive")}
+    >
+        Secondi
+    </NavLink>
+    <NavLink 
+        to="?type=Dolce" 
+        className={({ isActive }) => (isActive && window.location.search.includes("type=Dolce") ? "my-link-active" : "my-link-inactive")}
+    >
+        Dolci
+    </NavLink>
+</div>
                 </div>
-                <div className="recipe-container22"></div>
+                <div className="recipe-container22">
+                    
+                </div>
             </div>
-        </>
+        </div>
     )
 }
