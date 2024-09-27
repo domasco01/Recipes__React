@@ -6,17 +6,7 @@ import Card from "./Card";
 
 export default function Home(){
 
-    // const [riceps, setRiceps] = useState([]);
 
-    // useEffect(()=>{
-    //     async function fetchRecipes() {
-    //         const request = await fetch("http://localhost:3002/api/data")
-    //         const data = await request.json();
-    //         console.log(data)
-    //         setRiceps(data)
-    //     }
-    //     fetchRecipes();
-    // },[])
 
     const riceps=useLoaderData();
 
@@ -26,7 +16,7 @@ export default function Home(){
                 <div className="home-container11">
                     <div className="home-container12">
                         <h1>Chefs Academy</h1>
-                        <p>Master-Chef website that provides complete and delicious <br />recipes for all foods for all who like to cook and served <br /> simply.</p>
+                        <p>Master-Chef fornisce complete e deliziose <br />ricette per tutti i tipi di cibo e per tutte le persone che amano cucinare <br /> in maniera semplice.</p>
                         <br />
                         <Link to="/" className="get-started-link">Get Started</Link>
                     </div>   

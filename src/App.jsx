@@ -6,6 +6,8 @@ import Support from '../componenti/Support'
 import LayoutMenu from "../componenti/LayoutMenu"
 import Recipes from "../componenti/Recipes"
 import RecipeDetail from "../componenti/RecipeDetail"
+import ErrorPage from "../componenti/ErrorPage"
+
 import { getRecipes, loaderRecipeDetail } from "./loader"
 
 
@@ -16,6 +18,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="contact" element={<Contact />} />
     <Route path="support" element={<Support />} />
     <Route path="recipes/:id" element={<RecipeDetail />} loader={loaderRecipeDetail} />
+    <Route path="*" element={<ErrorPage/>} />
   </Route>
 
 ));
