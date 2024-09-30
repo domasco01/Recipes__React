@@ -23,7 +23,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="home-container2">
-                <h1>Antipasti <Link to="/recipes" className="link-arrow-home"><FontAwesomeIcon icon={faArrowRight} className="right-arrow" /></Link></h1>
+                <h1>Antipasti <Link to="/recipes?type=Antipasto" className="link-arrow-home"><FontAwesomeIcon icon={faArrowRight} className="right-arrow" /></Link></h1>
                 <div className="card-link-container">
                     {
                         riceps.filter(recipe => recipe.type==="Antipasto")
@@ -111,7 +111,7 @@ export default function Home(){
                 </div>
             </div>
             <div className="home-container4">
-                <h1>Primi Piatti <Link to="/recipes" className="link-arrow-home"><FontAwesomeIcon icon={faArrowRight} className="right-arrow" /></Link></h1>
+                <h1>Primi Piatti <Link to="/recipes?type=Primo" className="link-arrow-home"><FontAwesomeIcon icon={faArrowRight} className="right-arrow" /></Link></h1>
                 <div className="card-link-container">
                     {
                         riceps.filter(recipe => recipe.type==="Primo")
@@ -125,7 +125,7 @@ export default function Home(){
             
             </div>
             <div className="home-container5">
-                <h1>Dolci <Link to="/recipes" className="link-arrow-home"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-black" /></Link></h1>
+                <h1>Dolci <Link to="/recipes?type=Dolce" className="link-arrow-home"><FontAwesomeIcon icon={faArrowRight} className="right-arrow-black" /></Link></h1>
                 <div className="card-link-container">
                     {
                         riceps.filter(recipe => recipe.type==="Dolce")

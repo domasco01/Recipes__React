@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import { readFile } from 'fs/promises';
+import { readFile, writeFile } from 'fs/promises';
 
 const app = express();
 const port = 3002;
@@ -9,6 +9,19 @@ const port = 3002;
 app.use(cors());
 
 app.use(express.json());
+
+const users = [
+  {
+    name: 'Domenico Ascolese',
+    email: 'domenicoascolese0@gmail.com',
+    password: 'napoli100',
+  },
+  {
+    name: 'Giulia Bianchi',
+    email: 'giulia.bianchi@example.com',
+    password: 'mypassword',
+  },
+];
 
 app.get('/api/data', async (req, res) => {
   try {
@@ -37,6 +50,22 @@ app.get('/api/recipes/:id', async (req, res) => {
   } catch (error) {
     console.error('Errore nel leggere il file JSON:', error);
     res.status(500).json({ message: 'Errore nel server' });
+  }
+});
+
+// Endpoint per il login
+app.post('/api/login', (req, res) => {
+  const { email, password } = req.body;
+
+  // Trova l'utente con l'email fornita
+  const user = users.find(u => u.email === email);
+
+  if (user && user.password === password) {
+    // Login riuscito
+    res.status(200).json({ message: 'Login riuscito', user: { name: user.name, email: user.email } });
+  } else {
+    // Credenziali errate
+    res.status(401).json({ message: 'Credenziali non valide' });
   }
 });
 

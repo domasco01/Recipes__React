@@ -38,10 +38,6 @@ export default function Recipes(){
 
     function filtraBarra(e){
         setSearchedRecipe(e.target.value.toLowerCase());
-        
-
-        // console.log(arrayRicerca)
-
     }
     
 
@@ -113,7 +109,7 @@ export default function Recipes(){
                     </div>
                     <div className="recipe-container222">
                         {
-                        !deferredText ?
+                        !deferredText.trim() ?
                             displayedRecipes.slice(idsRecipes[0],idsRecipes[1]).map(recipe =>(
                                 <Link to={`/recipes/${recipe.id}`} key={recipe.id}><Card name={recipe.name} imgUrl={recipe.imgUrl} /></Link>
                             ))
@@ -130,7 +126,7 @@ export default function Recipes(){
 
                 {/* PULSANTI PER SFOGLIARE LE CARD DI RICETTE */}
 
-            {!deferredText ?
+            {!deferredText.trim() ?
                 <div className="recipe-container3">
                         <button className="sfoglia-ricette" onClick={backRecipes} disabled={idsRecipes[0]===0}>Indietro</button>
                         <h3>{page}</h3>

@@ -16,7 +16,7 @@ export default function LayoutMenu(){
                     <NavLink to="/support"className={({ isActive }) => (isActive ? "link-active" : "menu-link")}>About us</NavLink>
                 </div>
                 <div className="side-link-container2">
-                   <NavLink to="/" className="menu-link">Login</NavLink> 
+                   <NavLink to="/login" className="menu-link">Login</NavLink> 
                    <div className="sign-up-link"><NavLink to="/" className="sign-up-btn">Iscriviti</NavLink></div> 
                 </div>
             </header>
