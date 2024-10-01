@@ -82,6 +82,17 @@ header a{
     color:white;
 }
 
+.logout-btn{
+    height:70px;
+    width:140px;
+    background-color:black;
+    border-radius:35px;
+    color:white;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+}
+
 .home-container1, .recipe-container1{
     width:100%;
     height:85vh;
@@ -795,6 +806,93 @@ a{
 }
 
 .login-page-container22 button{
+    width:100%;
+    height:60px;
+    border-radius:30px;
+    background-color:#FEBD2F;
+    font-size:22px;
+    border:none;
+    cursor:pointer;
+}
+
+
+
+.register-page-container{
+    width:100%;
+    height:100vh;
+    background-color:#F5F3EF;
+    display:flex;
+    overflow-y:hidden;
+}
+
+.register-page-container1{
+    width:40%;
+    height:100%;
+    position:relative;
+    background-image: url("https://images.pexels.com/photos/28617321/pexels-photo-28617321.jpeg");
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.back-button{
+    position:absolute;
+    top:3%;
+    left:3%;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    color:black;
+    border:none;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.register-page-container1 img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.register-page-container2{
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:left;
+}
+
+.register-page-container2 h1{
+    font-size:50px;
+}
+
+.register-page-container2 p{
+    font-size:22px;
+}
+
+.register-page-container22{
+    display:flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content:center;
+    text-align:left;
+    gap:30px;
+}
+
+.register-page-container22 input{
+    width:100%;
+    height:60px;
+    padding:15px;
+    outline:none;
+    border:none;
+    border-radius:15px;
+    margin-bottom:30px;
+    font-size:20px;
+}
+
+.register-page-container22 button{
     width:100%;
     height:60px;
     border-radius:30px;

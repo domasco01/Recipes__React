@@ -1,15 +1,14 @@
+
 import { useNavigate } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { useContext, useState } from "react";
 import { AuthContext } from "./AuthContext";
-
-export default function Login(){
+export default function Iscrizione(){
 
     const navigate = useNavigate();
-    const { login } = useContext(AuthContext); // Usa la funzione di login dal contesto
-
-
+    const { login } = useContext(AuthContext);
+    
     const [formData, setFormData] = useState({
         email: '',
         password: ''
@@ -27,7 +26,7 @@ export default function Login(){
         e.preventDefault();
 
         try {
-            const response = await fetch('http://localhost:3002/api/login', {
+            const response = await fetch('http://localhost:3002/api/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -55,10 +54,10 @@ export default function Login(){
             alert('Si è verificato un errore. Riprova.');
         }
     };
+
     return(
-        
-        <div className="login-page-container"> 
-            <div className="login-page-container1">
+        <div className="register-page-container"> 
+            <div className="register-page-container1">
                 <button className="back-button"
                 onClick={()=>{
                     navigate(-1)
@@ -66,34 +65,35 @@ export default function Login(){
                 
                 ><FontAwesomeIcon icon={faArrowLeft} /></button>
                 </div>
-                <div className="login-page-container2">
-                    <div className="login-page-container22">
+                <div className="register-page-container2">
+                    <div className="register-page-container22">
                     <h1>Welcome back!</h1>
                     <p>Inizia a salvare e gestire le tue ricette</p>
 
                     <form onSubmit={handleSubmit}>
-                        <input
-                            type="email"
-                            id="email"
-                            name="email"
-                            placeholder="Email"
-                            value={formData.email}
-                            onChange={handleChange}
-                            required
-                        /><br />
-                        <input
-                            type="password"
-                            id="password"
-                            name="password"
-                            placeholder="Password"
-                            value={formData.password}
-                            onChange={handleChange}
-                            required
-                        /><br />
-                        <br />
-                        <br />
-                        <button type="submit">Continua</button>
-                    </form>
+            
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+            /><br />
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Password"
+                value={formData.password}
+                onChange={handleChange}
+                required
+            /><br />
+            <br />
+            <br />
+            <button type="submit">Continua</button>
+        </form>
                 </div>
                 
             </div>  

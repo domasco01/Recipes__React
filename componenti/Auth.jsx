@@ -1,14 +1,17 @@
-import { Navigate } from "react-router-dom";
 
+import { Navigate, Outlet } from 'react-router-dom';
+import { AuthContext } from './AuthContext';
+import { useContext } from 'react';
 
-export default function Auth(){
+export default function Auth (){
+    const { auth } = useContext(AuthContext);
 
-    isLogged = true;
-
-    if (!isLogged){
-        return <Navigate to="/login" />
+    // Se l'utente non è autenticato, reindirizza alla pagina di login
+    if (auth === 'not-auth') {
+        return <Navigate to="/login" />;
     }
 
-    return <Outlet />
+    // Mostra le rotte protette
+    return <Outlet />;
+};
 
-}

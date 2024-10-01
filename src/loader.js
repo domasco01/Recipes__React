@@ -5,8 +5,8 @@ export async function getRecipes(){
     if (!request.ok) {
         throw {
             message: "Failed to fetch recipes", 
-            statusText: res.statusText,
-            status: res.status
+            statusText: request.statusText,
+            status: request.status
         }
     }
     const data = await request.json();
