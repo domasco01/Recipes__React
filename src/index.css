@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 *{
     margin:0;
     padding:0;
@@ -829,7 +834,7 @@ a{
     width:40%;
     height:100%;
     position:relative;
-    background-image: url("https://images.pexels.com/photos/28617321/pexels-photo-28617321.jpeg");
+    background-image: url("https://cdn.pixabay.com/photo/2020/12/23/21/21/macarons-5856039_640.jpg");
     background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 
@@ -900,4 +905,11 @@ a{
     font-size:22px;
     border:none;
     cursor:pointer;
+}
+
+
+.personal-area-container{
+    width:100vw;
+    height:100vh;
+    background-color:#F5F3EF;
 }

@@ -8,7 +8,7 @@ export default function Iscrizione(){
 
     const navigate = useNavigate();
     const { login } = useContext(AuthContext);
-    
+
     const [formData, setFormData] = useState({
         email: '',
         password: ''
@@ -67,8 +67,8 @@ export default function Iscrizione(){
                 </div>
                 <div className="register-page-container2">
                     <div className="register-page-container22">
-                    <h1>Welcome back!</h1>
-                    <p>Inizia a salvare e gestire le tue ricette</p>
+                    <h1>Hey, benvenuto!👋</h1>
+                    <p>Registrati per salvare le tue ricette!</p>
 
                     <form onSubmit={handleSubmit}>
             

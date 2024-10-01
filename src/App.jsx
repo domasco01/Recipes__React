@@ -17,13 +17,12 @@ import Iscrizione from "../componenti/Iscrizione"
 
 const router = createBrowserRouter(createRoutesFromElements(
   <>
-    <Route element={<LayoutMenu />}>
+    <Route element={<LayoutMenu />} errorElement={<ErrorPage />}>
       <Route path="/" element={<Home />} loader={getRecipes} />
       <Route path="recipes" element={<Recipes />} loader={getRecipes} />
       <Route path="contact" element={<Contact />} />
       <Route path="support" element={<Support />} />
       <Route path="recipes/:id" element={<RecipeDetail />} loader={loaderRecipeDetail} />
-      <Route path="*" element={<ErrorPage/>} />
       <Route element={<Auth />}>
         <Route path="page1" element={<Page1 />} />
       </Route>
