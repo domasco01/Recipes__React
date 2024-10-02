@@ -24,7 +24,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route path="support" element={<Support />} />
       <Route path="recipes/:id" element={<RecipeDetail />} loader={loaderRecipeDetail} />
       <Route element={<Auth />}>
-        <Route path="page1" element={<Page1 />} />
+        <Route path="page1" element={<Page1 />} loader={getRecipes} />
       </Route>
     </Route>
     <Route path="login" element={<Login />} />

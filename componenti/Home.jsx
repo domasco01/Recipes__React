@@ -8,7 +8,7 @@ export default function Home(){
 
 
 
-    const riceps=useLoaderData();
+    const riceps = useLoaderData();
 
     return(
         <>
