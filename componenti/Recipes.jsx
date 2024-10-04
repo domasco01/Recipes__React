@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo, useDeferredValue } from "react"
+import { useEffect, useState, useDeferredValue } from "react"
 import { NavLink, useLoaderData, useSearchParams, Link } from "react-router-dom"
 import Card from "./Card"
 export default function Recipes(){
@@ -11,7 +11,7 @@ export default function Recipes(){
     console.log(displayedRecipes)
 
     const [idsRecipes, setIdsRiceps] = useState([0,9]);
-    const [page, setPage] = useState(0);
+    const [page, setPage] = useState(1);
 
     const [searchedRecipe, setSearchedRecipe] = useState('');
     const deferredText = useDeferredValue(searchedRecipe);
@@ -116,7 +116,14 @@ export default function Recipes(){
                         :
                             displayedRecipes.filter(recipe => recipe.name.toLowerCase().startsWith(deferredText))
                             .map(recipe =>(
-                                <Link to={`/recipes/${recipe.id}`} key={recipe.id}><Card name={recipe.name} imgUrl={recipe.imgUrl} /></Link>
+                                <Link 
+                                    to={`/recipes/${recipe.id}`} 
+                                    key={recipe.id}>
+                                    <Card 
+                                        name={recipe.name} 
+                                        imgUrl={recipe.imgUrl} 
+                                    />
+                                </Link>
                             ) )
                         }
                     </div>

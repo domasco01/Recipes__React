@@ -1,10 +1,17 @@
 [
   {
     "id": 0,
-    "imgUrl":"https://cdn.pixabay.com/photo/2020/10/01/22/39/gourmet-5619887_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/10/01/22/39/gourmet-5619887_1280.jpg",
     "name": "Bruschetta al pomodoro",
     "type": "Antipasto",
-    "ingredients": ["Pane", "Pomodori", "Basilico", "Aglio", "Olio d'oliva", "Sale"],
+    "ingredients": [
+      "Pane",
+      "Pomodori",
+      "Basilico",
+      "Aglio",
+      "Olio d'oliva",
+      "Sale"
+    ],
     "instructions": "Per preparare delle ottime bruschette al pomodoro, inizia tagliando del buon pane casereccio a fette di circa 1 cm di spessore. Scegli un pane rustico con una crosta spessa e mollica compatta, in modo che mantenga la croccantezza dopo la tostatura. Tosta le fette di pane su una griglia o in forno caldo per 5-7 minuti, girandole a metà cottura, finché non diventano dorate e croccanti su entrambi i lati. Nel frattempo, lava e taglia i pomodori a cubetti. Trasferiscili in una ciotola e condiscili con sale, pepe, olio d’oliva extravergine e basilico fresco tritato. Mescola bene e lascia riposare per almeno 10 minuti, in modo che i sapori si amalgamino. A parte, sbuccia uno spicchio d’aglio e strofina delicatamente ogni fetta di pane tostato per dare un aroma intenso ma non eccessivo. A questo punto, distribuisci il composto di pomodori sulle fette di pane, avendo cura di scolare il liquido in eccesso per evitare che il pane si ammorbidisca troppo. Per finire, aggiungi un altro filo d’olio d’oliva a crudo sopra ogni bruschetta e, se desideri, una spolverata di origano o una grattata di pepe nero. Servi le bruschette immediatamente, così che il contrasto tra la croccantezza del pane e la freschezza del pomodoro sia perfetto.",
     "notes": "Le bruschette al pomodoro sono un antipasto classico e freschissimo, perfetto per l’estate. Per ottenere un risultato ottimale, scegli pomodori maturi e di qualità, come i San Marzano. Il contrasto tra il pane croccante e il pomodoro succoso rende ogni morso una delizia. Ricorda di servirle immediatamente per mantenere la croccantezza del pane. Aggiungere un filo d'olio d'oliva a crudo esalta i sapori, mentre l’aglio può essere regolato secondo il proprio gusto personale.",
     "prepTime": "5 minuti",
@@ -12,10 +19,17 @@
   },
   {
     "id": 1,
-    "imgUrl":"https://cdn.pixabay.com/photo/2015/10/27/12/17/spagetti-1008867_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/10/27/12/17/spagetti-1008867_640.jpg",
     "name": "Spaghetti al pesto",
     "type": "Primo",
-    "ingredients": ["Spaghetti", "Basilico", "Aglio", "Olio d'oliva", "Pinoli", "Pecorino"],
+    "ingredients": [
+      "Spaghetti",
+      "Basilico",
+      "Aglio",
+      "Olio d'oliva",
+      "Pinoli",
+      "Pecorino"
+    ],
     "instructions": "Cuoci gli spaghetti in abbondante acqua salata, seguendo i tempi indicati sulla confezione per ottenere una cottura al dente, che generalmente richiede circa 8-10 minuti. Mentre gli spaghetti cuociono, prepara il pesto. Inizia lavando accuratamente il basilico fresco sotto l’acqua corrente e asciugalo con cura tamponando con un panno. In un frullatore o con un mortaio, unisci le foglie di basilico con uno spicchio d'aglio, una manciata di pinoli, e una generosa dose di olio d'oliva extravergine. Frulla tutto fino a ottenere una salsa omogenea e liscia. Aggiungi poi del pecorino grattugiato e un po' di parmigiano reggiano, continuando a frullare o pestare fino a che il pesto abbia una consistenza cremosa. Se risulta troppo denso, puoi aggiungere un filo d'olio in più o un po' d'acqua di cottura della pasta per diluirlo. Una volta che gli spaghetti sono cotti al punto giusto, scolali, conservando un mestolo di acqua di cottura. Trasferisci gli spaghetti in una ciotola capiente, aggiungi il pesto e mescola bene, aggiungendo l’acqua di cottura poco alla volta per ottenere una crema morbida che si leghi perfettamente alla pasta. Servi immediatamente, con una spolverata extra di pecorino o parmigiano.",
     "notes": "Per gli spaghetti al pesto, l'uso di basilico fresco è fondamentale per ottenere un sapore intenso e aromatico. Assicurati di non cuocere troppo il pesto; una breve lavorazione nel frullatore è sufficiente. La combinazione di pecorino e parmigiano offre una ricchezza che completa perfettamente il piatto. Non dimenticare di conservare un po' di acqua di cottura della pasta per rendere la salsa ancora più cremosa. Servire subito per gustare al meglio la freschezza degli ingredienti.",
     "prepTime": "10 minuti",
@@ -23,10 +37,15 @@
   },
   {
     "id": 2,
-    "imgUrl":"https://cdn.pixabay.com/photo/2024/01/03/16/47/ai-generated-8485804_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2024/01/03/16/47/ai-generated-8485804_640.jpg",
     "name": "Lasagne alla bolognese",
     "type": "Primo",
-    "ingredients": ["Sfoglie di lasagna", "Ragù", "Besciamella", "Parmigiano"],
+    "ingredients": [
+      "Sfoglie di lasagna",
+      "Ragù",
+      "Besciamella",
+      "Parmigiano"
+    ],
     "instructions": "Per preparare delle autentiche lasagne alla bolognese, inizia dal ragù, il cuore della ricetta. In una pentola capiente, rosola della carne macinata di manzo e maiale con un filo d'olio d'oliva e una cipolla tritata finemente. Quando la carne è ben dorata, aggiungi un po’ di vino rosso e lascialo evaporare. Successivamente, unisci della passata di pomodoro e un cucchiaio di concentrato, regola di sale e pepe, e aggiungi una foglia di alloro per aromatizzare. Lascia cuocere a fuoco lento per almeno un’ora, mescolando di tanto in tanto. Nel frattempo, prepara la besciamella sciogliendo del burro in un pentolino, aggiungendo farina e mescolando fino a ottenere un roux dorato. Versa del latte caldo a filo, continuando a mescolare, e cuoci finché non ottieni una salsa liscia e densa. Aggiungi un pizzico di noce moscata e sale. Ora, inizia a stratificare: disponi uno strato sottile di ragù sul fondo di una teglia, poi aggiungi una sfoglia di lasagna, altro ragù, besciamella e una spolverata di parmigiano. Continua a stratificare fino a esaurimento degli ingredienti, terminando con besciamella e abbondante parmigiano. Cuoci le lasagne in forno preriscaldato a 180°C per circa 30-40 minuti, finché non saranno dorate e croccanti in superficie.",
     "notes": "Le lasagne alla bolognese sono un piatto ricco e confortante, ideale per occasioni speciali. Preparare il ragù il giorno prima permette ai sapori di amalgamarsi meglio. Usa sfoglie di lasagna fresche o secche; in entrambi i casi, assicurati che siano ben stratificate con ragù e besciamella. Una cottura lenta in forno permette alla superficie di dorarsi e alla pasta di assorbire i sapori. Servile calde, accompagnate da un buon vino rosso per un'esperienza gastronomica completa.",
     "prepTime": "20 minuti",
@@ -34,10 +53,17 @@
   },
   {
     "id": 3,
-    "imgUrl":"https://cdn.pixabay.com/photo/2017/06/28/17/40/chicken-2451482_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/06/28/17/40/chicken-2451482_640.jpg",
     "name": "Pollo alla cacciatora",
     "type": "Secondo",
-    "ingredients": ["Pollo", "Pomodori", "Vino bianco", "Aglio", "Rosmarino", "Olive"],
+    "ingredients": [
+      "Pollo",
+      "Pomodori",
+      "Vino bianco",
+      "Aglio",
+      "Rosmarino",
+      "Olive"
+    ],
     "instructions": "Per preparare un succulento pollo alla cacciatora, inizia riscaldando un po' di olio d'oliva in una casseruola capiente. Aggiungi i pezzi di pollo (cosce e sovracosce sono particolarmente indicate) e rosolali bene su entrambi i lati, finché non saranno dorati e croccanti. Nel frattempo, sbuccia uno spicchio d'aglio e aggiungilo alla padella insieme a qualche rametto di rosmarino per insaporire. Una volta che il pollo è ben dorato, sfuma con un bicchiere di vino bianco secco e lascia evaporare l’alcol, mescolando delicatamente. A questo punto, aggiungi dei pomodori pelati o una passata rustica, insieme a qualche oliva nera per un tocco sapido. Regola di sale e pepe, abbassa la fiamma, copri la pentola e lascia cuocere il tutto a fuoco lento per circa 30-40 minuti, finché il pollo non sarà tenero e la salsa ben ristretta. Durante la cottura, gira i pezzi di pollo di tanto in tanto per farli insaporire uniformemente e, se la salsa si asciuga troppo, puoi aggiungere un po’ di acqua o brodo. Una volta cotto, servi il pollo alla cacciatora con abbondante salsa e, se desideri, accompagna il piatto con contorni semplici come patate arrosto o una polenta morbida.",
     "notes": "Il pollo alla cacciatora è un piatto rustico che racchiude i sapori della tradizione italiana. La marinatura nel vino bianco esalta il gusto del pollo, mentre l'aggiunta di olive e pomodori offre un equilibrio perfetto di sapori. Cuocere a fuoco lento consente alla carne di diventare tenera e saporita. È ideale servirlo con contorni semplici, come purè di patate o verdure grigliate, per un pasto completo e soddisfacente.",
     "prepTime": "10 minuti",
@@ -45,10 +71,17 @@
   },
   {
     "id": 4,
-    "imgUrl":"https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2016/11/22/18/52/cake-1850011_1280.jpg",
     "name": "Torta al cioccolato",
     "type": "Dolce",
-    "ingredients": ["Farina", "Uova", "Zucchero", "Burro", "Cioccolato fondente", "Lievito"],
+    "ingredients": [
+      "Farina",
+      "Uova",
+      "Zucchero",
+      "Burro",
+      "Cioccolato fondente",
+      "Lievito"
+    ],
     "instructions": "Per preparare una deliziosa torta al cioccolato, inizia sciogliendo il cioccolato fondente insieme al burro a bagnomaria o nel microonde. Mescola con cura fino a ottenere un composto liscio e omogeneo. Mentre il cioccolato si raffredda leggermente, in una ciotola monta le uova con lo zucchero usando uno sbattitore elettrico, fino a ottenere una crema chiara e spumosa. Aggiungi poco alla volta la farina e il lievito setacciati, mescolando delicatamente con una spatola per evitare che il composto si smonti. Una volta che gli ingredienti secchi sono stati incorporati, versa il cioccolato fuso e mescola delicatamente fino a ottenere un impasto liscio e omogeneo. Imburra e infarina una tortiera, oppure rivestila con carta da forno, e versa l'impasto all'interno. Livella la superficie con una spatola e cuoci la torta in forno preriscaldato a 180°C per circa 30 minuti. Per verificare la cottura, inserisci uno stecchino al centro della torta: se esce pulito, la torta è pronta. Lascia raffreddare completamente prima di sformarla. La torta può essere servita con una spolverata di zucchero a velo, oppure accompagnata da panna montata o frutta fresca, come fragole o lamponi. Per una versione più ricca, puoi anche glassarla con cioccolato fuso o farcirla con una crema al cioccolato.",
     "notes": "La torta al cioccolato è un classico intramontabile, perfetta per qualsiasi occasione. Per un risultato ottimale, utilizza cioccolato fondente di alta qualità. La consistenza deve essere umida e ricca, quindi fai attenzione ai tempi di cottura. Servila con una spolverata di zucchero a velo o accompagnata da panna montata e frutta fresca. Per un tocco extra, prova a glassarla con cioccolato fuso per un dessert ancora più indulgente.",
     "prepTime": "10 minuti",
@@ -56,10 +89,16 @@
   },
   {
     "id": 5,
-    "imgUrl":"https://cdn.pixabay.com/photo/2015/05/20/16/11/kitchen-775746_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/05/20/16/11/kitchen-775746_640.jpg",
     "name": "Frittata di zucchine",
     "type": "Secondo",
-    "ingredients": ["Uova", "Zucchine", "Parmigiano", "Sale", "Pepe"],
+    "ingredients": [
+      "Uova",
+      "Zucchine",
+      "Parmigiano",
+      "Sale",
+      "Pepe"
+    ],
     "instructions": "Per una frittata di zucchine leggera e saporita, inizia lavando e affettando le zucchine a rondelle sottili. In una padella, scalda un filo d’olio d’oliva e rosola le zucchine per circa 5-7 minuti, finché non diventano morbide e leggermente dorate. Nel frattempo, in una ciotola capiente, sbatti le uova con una forchetta o una frusta. Aggiungi sale, pepe, parmigiano grattugiato e, se desideri, anche un pizzico di noce moscata o prezzemolo tritato per arricchire il sapore. Una volta che le zucchine sono pronte, lasciale raffreddare leggermente e poi uniscile al composto di uova. Mescola bene il tutto. Riscalda nuovamente la padella con un altro filo d’olio e versa il composto di uova e zucchine, distribuendolo in modo uniforme. Cuoci a fuoco medio-basso per circa 5-7 minuti, finché la parte inferiore della frittata sarà dorata e la superficie inizierà a rassodarsi. A questo punto, puoi girare la frittata con l'aiuto di un piatto o un coperchio: appoggia il piatto sulla padella, capovolgi la frittata e falla scivolare di nuovo in padella per completare la cottura sull'altro lato. Cuoci per altri 5 minuti, finché la frittata è dorata su entrambi i lati e ben cotta all’interno. Servila calda o a temperatura ambiente.",
     "notes": "La frittata di zucchine è un piatto versatile, ottimo sia caldo che freddo. L'uso di zucchine fresche e di stagione garantisce un sapore delizioso. La cottura lenta permette di mantenere la morbidezza delle zucchine, mentre il parmigiano aggiunge un tocco di sapidità. È perfetta come antipasto o secondo piatto e si presta bene a vari abbinamenti, come insalate fresche o pane croccante.",
     "prepTime": "5 minuti",
@@ -67,10 +106,16 @@
   },
   {
     "id": 6,
-    "imgUrl":"https://cdn.pixabay.com/photo/2021/04/12/10/42/tiramisu-6172170_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2021/04/12/10/42/tiramisu-6172170_640.jpg",
     "name": "Tiramisù alle fragole",
     "type": "Dolce",
-    "ingredients": ["Savoiardi", "Fragole", "Mascarpone", "Uova", "Zucchero"],
+    "ingredients": [
+      "Savoiardi",
+      "Fragole",
+      "Mascarpone",
+      "Uova",
+      "Zucchero"
+    ],
     "instructions": "Per preparare un fresco tiramisù alle fragole, inizia lavando accuratamente le fragole. Frullane una parte per ottenere un succo, che userai per inzuppare i savoiardi, mentre le restanti fragole le taglierai a fettine sottili per la decorazione. In una ciotola separa i tuorli dagli albumi. Monta i tuorli con lo zucchero fino a ottenere una crema chiara e spumosa, poi aggiungi il mascarpone e mescola fino a ottenere un composto omogeneo. In un'altra ciotola monta gli albumi a neve ben ferma, usando una frusta elettrica o manuale. Incorpora delicatamente gli albumi montati alla crema di mascarpone, mescolando con movimenti dal basso verso l’alto per non smontare il composto. Ora inizia a comporre il tiramisù: inzuppa leggermente i savoiardi nel succo di fragole e disponili in uno strato uniforme sul fondo di una pirofila. Copri i savoiardi con uno strato generoso di crema al mascarpone e poi aggiungi alcune fettine di fragole. Ripeti il processo, alternando strati di savoiardi inzuppati e crema, fino a esaurire gli ingredienti. Termina con uno strato di crema e decora con le fragole fresche. Copri la pirofila con pellicola trasparente e lascia riposare in frigorifero per almeno 2 ore, affinché i sapori si amalgamino bene. Questo tiramisù è ideale per l’estate, fresco e leggero.",
     "notes": "Il tiramisù alle fragole offre una freschezza unica rispetto alla versione tradizionale. Utilizzare fragole mature per il miglior sapore è essenziale. La preparazione richiede un po' di pazienza, ma il risultato ripaga l'attesa. Lasciarlo riposare in frigorifero permette ai sapori di amalgamarsi perfettamente. Questo dolce è ideale per l’estate, servito come dessert leggero dopo un pasto abbondante.",
     "prepTime": "20 minuti",
@@ -78,10 +123,17 @@
   },
   {
     "id": 7,
-    "imgUrl":"https://cdn.pixabay.com/photo/2019/09/06/19/29/rice-4457143_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2019/09/06/19/29/rice-4457143_1280.jpg",
     "name": "Risotto ai funghi",
     "type": "Primo",
-    "ingredients": ["Riso", "Funghi porcini", "Cipolla", "Brodo vegetale", "Parmigiano", "Burro"],
+    "ingredients": [
+      "Riso",
+      "Funghi porcini",
+      "Cipolla",
+      "Brodo vegetale",
+      "Parmigiano",
+      "Burro"
+    ],
     "instructions": "Per preparare un cremoso risotto ai funghi, inizia pulendo i funghi porcini freschi o secchi (in quest'ultimo caso, lasciali in ammollo in acqua tiepida per circa 20 minuti). Taglia i funghi a pezzetti e mettili da parte. In una padella capiente, sciogli una noce di burro insieme a un filo d’olio d’oliva e soffriggi una cipolla tritata finemente fino a farla appassire, per circa 5 minuti a fuoco medio. Aggiungi i funghi e falli rosolare per qualche minuto, finché non rilasciano la loro acqua. A questo punto, versa il riso (carnaroli o arborio) nella padella e tostalo per un paio di minuti, mescolando spesso per evitare che si attacchi. Sfuma con un po' di vino bianco e lascia evaporare. Inizia a versare il brodo vegetale caldo poco alla volta, aggiungendone un mestolo alla volta mentre mescoli continuamente. Continua a cuocere per 18-20 minuti, aggiungendo brodo man mano che il riso lo assorbe. Quando il risotto è cotto al punto giusto, spegni il fuoco e manteca con una noce di burro e parmigiano grattugiato, mescolando energicamente per ottenere una consistenza cremosa. Servi il risotto caldo, con una spolverata di prezzemolo fresco e una grattugiata di pepe nero.",
     "notes": "Il risotto ai funghi è un piatto cremoso e saporito, perfetto per i mesi freddi. Scegli funghi freschi o secchi per ottenere il massimo sapore. La chiave per un buon risotto è mescolare continuamente e aggiungere brodo caldo poco alla volta. Un buon mantecare finale con burro e parmigiano conferirà cremosità e ricchezza al piatto. Servi con prezzemolo fresco e pepe nero per un tocco finale.",
     "prepTime": "10 minuti",
@@ -89,10 +141,17 @@
   },
   {
     "id": 8,
-    "imgUrl":"https://cdn.pixabay.com/photo/2020/03/08/17/59/food-4913279_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/03/08/17/59/food-4913279_640.jpg",
     "name": "Focaccia al rosmarino",
     "type": "Antipasto",
-    "ingredients": ["Farina", "Lievito", "Acqua", "Olio d'oliva", "Sale", "Rosmarino"],
+    "ingredients": [
+      "Farina",
+      "Lievito",
+      "Acqua",
+      "Olio d'oliva",
+      "Sale",
+      "Rosmarino"
+    ],
     "instructions": "Inizia sciogliendo il lievito in 250 ml di acqua tiepida in una ciotola. Aggiungi 500 g di farina, 10 g di sale e 30 ml di olio d’oliva. Mescola bene fino a ottenere un impasto omogeneo. Impasta a mano o con un'impastatrice per circa 10 minuti, fino a ottenere una consistenza liscia ed elastica. Copri la ciotola con un canovaccio e lascia lievitare in un luogo caldo per circa un’ora, o finché l’impasto raddoppia di volume. Trascorso il tempo, stendi l’impasto su una teglia da forno leggermente unta, creando delle fossette con le dita. Cospargi con abbondante rosmarino fresco e un filo d’olio d’oliva. Lascia riposare per 20 minuti. Cuoci in forno preriscaldato a 200°C per 20-25 minuti, fino a quando la superficie diventa dorata e croccante. Una volta sfornata, lascia raffreddare leggermente e servi calda o a temperatura ambiente. Questa focaccia è perfetta da abbinare a salumi, formaggi o semplicemente come accompagnamento per un aperitivo.",
     "notes": "La focaccia al rosmarino è un antipasto semplice e saporito. La preparazione richiede un po' di tempo per la lievitazione, ma il risultato è una focaccia morbida e profumata. L'uso di olio d'oliva di qualità e rosmarino fresco arricchisce il sapore. Può essere servita calda o a temperatura ambiente, ed è perfetta per accompagnare salumi e formaggi durante un aperitivo o un pranzo informale.",
     "prepTime": "15 minuti",
@@ -100,10 +159,17 @@
   },
   {
     "id": 9,
-    "imgUrl":"https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_640.jpg",
     "name": "Salmone al forno",
     "type": "Secondo",
-    "ingredients": ["Salmone", "Limone", "Olio d'oliva", "Sale", "Pepe", "Prezzemolo"],
+    "ingredients": [
+      "Salmone",
+      "Limone",
+      "Olio d'oliva",
+      "Sale",
+      "Pepe",
+      "Prezzemolo"
+    ],
     "instructions": "PPreriscalda il forno a 180°C. Inizia preparando i filetti di salmone: posizionali su una teglia rivestita di carta forno. Condisci i filetti con 2-3 cucchiai di olio d'oliva, sale e pepe a piacere. Spremi il succo di un limone fresco sui filetti. Per un tocco in più, puoi aggiungere fette di limone direttamente sopra il salmone. Inforna per 20-25 minuti, fino a quando il salmone è cotto e si sfalda facilmente con una forchetta. Guarnisci con prezzemolo fresco tritato e servi caldo. Questo piatto si abbina splendidamente a contorni di verdure grigliate o un’insalata fresca, rendendolo un'ottima scelta per una cena leggera e salutare.",
     "notes": "Questo piatto semplice e veloce è perfetto per una cena leggera. Il salmone, ricco di omega-3, è esaltato dal limone e dal prezzemolo. La cottura in forno mantiene la carne tenera e succosa, rendendolo un'ottima scelta per una dieta salutare. Si abbina bene a contorni come verdure grigliate o insalate fresche.",
     "prepTime": "5 minuti",
@@ -111,10 +177,16 @@
   },
   {
     "id": 10,
-    "imgUrl":"https://cdn.pixabay.com/photo/2020/11/04/13/13/dessert-5712284_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/11/04/13/13/dessert-5712284_640.jpg",
     "name": "Crostata di marmellata",
     "type": "Dolce",
-    "ingredients": ["Farina", "Burro", "Uova", "Zucchero", "Marmellata"],
+    "ingredients": [
+      "Farina",
+      "Burro",
+      "Uova",
+      "Zucchero",
+      "Marmellata"
+    ],
     "instructions": "Per preparare la crostata di marmellata, inizia a fare la pasta frolla. In una ciotola, mescola 300 g di farina, 150 g di burro freddo tagliato a pezzetti, 100 g di zucchero e 2 uova. Impasta rapidamente fino a ottenere un composto omogeneo. Forma una palla, avvolgila nella pellicola trasparente e lascia riposare in frigorifero per almeno 30 minuti. Dopo il riposo, stendi la pasta in uno strato di circa 5 mm di spessore e trasferiscila in una tortiera di 24 cm di diametro, precedentemente imburrata. Spalma un generoso strato di marmellata a tua scelta (albicocca, fragola, ecc.) sulla base. Con l’impasto rimanente, taglia delle strisce e decorale a griglia sulla marmellata. Cuoci in forno preriscaldato a 180°C per 40-45 minuti, finché la superficie è dorata. Lascia raffreddare prima di servire. Per un tocco extra, spolverizza con zucchero a velo prima di servire.",
     "notes": "Un classico dolce italiano, facile da preparare e sempre apprezzato. La pasta frolla croccante abbinata alla dolcezza della marmellata crea un equilibrio perfetto. Per un tocco in più, la crema pasticcera sotto la marmellata la rende ancora più golosa. Ottima per ogni occasione.",
     "prepTime": "15 minuti",
@@ -122,10 +194,17 @@
   },
   {
     "id": 11,
-    "imgUrl":"https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBhc3RhJTIwYWxsYSUyMG5vcm1hfGVufDB8fDB8fHww",
+    "imgUrl": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBhc3RhJTIwYWxsYSUyMG5vcm1hfGVufDB8fDB8fHww",
     "name": "Pasta alla Norma",
     "type": "Primo",
-    "ingredients": ["Pasta", "Melanzane", "Pomodori", "Ricotta salata", "Aglio", "Basilico"],
+    "ingredients": [
+      "Pasta",
+      "Melanzane",
+      "Pomodori",
+      "Ricotta salata",
+      "Aglio",
+      "Basilico"
+    ],
     "instructions": "Inizia preparando gli ingredienti. Taglia 2 melanzane a fette e friggile in abbondante olio d'oliva fino a doratura. Scolale e mettile da parte. In una padella, scalda 2-3 cucchiai di olio d'oliva e soffriggi uno spicchio d'aglio tritato. Aggiungi 400 g di pomodori pelati e schiacciali con una forchetta. Lascia cuocere a fuoco medio per circa 20 minuti. Nel frattempo, cuoci 400 g di pasta in abbondante acqua salata fino a ottenere una consistenza al dente. Scola la pasta e uniscila al sugo, mescolando bene. Aggiungi le melanzane fritte e una generosa grattugiata di ricotta salata. Mescola e guarnisci con basilico fresco prima di servire. Questo piatto è un classico della cucina siciliana e offre un equilibrio perfetto di sapori.",
     "notes": "Un piatto siciliano che celebra il sapore delle melanzane e della ricotta salata. Questo primo piatto è ricco di gusto e colore, perfetto per una cena estiva. L'uso di ingredienti freschi garantisce un risultato delizioso, mentre l'aggiunta di basilico fresca conferisce una nota aromatica.",
     "prepTime": "15 minuti",
@@ -133,10 +212,17 @@
   },
   {
     "id": 12,
-    "imgUrl":"https://cdn.pixabay.com/photo/2022/05/20/08/55/pasta-7209002_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2022/05/20/08/55/pasta-7209002_640.jpg",
     "name": "Insalata greca",
     "type": "Antipasto",
-    "ingredients": ["Pomodori", "Cetrioli", "Feta", "Olive", "Olio d'oliva", "Origano"],
+    "ingredients": [
+      "Pomodori",
+      "Cetrioli",
+      "Feta",
+      "Olive",
+      "Olio d'oliva",
+      "Origano"
+    ],
     "instructions": "Per preparare una fresca insalata greca, inizia lavando e tagliando 3 pomodori e 1 cetriolo a fette. In una ciotola capiente, unisci i pomodori e i cetrioli. Aggiungi 200 g di feta tagliata a cubetti e una manciata di olive nere. Condisci con 4-5 cucchiai di olio d'oliva extravergine, un pizzico di sale, pepe e origano secco. Mescola delicatamente per amalgamare gli ingredienti, facendo attenzione a non sbriciolare troppo la feta. Servi l’insalata fresca, magari accompagnata da pane pita o crostini. Questo piatto è perfetto come antipasto o come contorno per un secondo piatto di carne o pesce.",
     "notes": "Fresca e leggera, questa insalata è un’ottima scelta per un antipasto o un contorno. Gli ingredienti semplici come pomodori, cetrioli, feta e olive si uniscono per creare un piatto saporito e nutriente. L'olio d'oliva e l'origano esaltano il gusto mediterraneo. Servire subito per preservare la freschezza.",
     "prepTime": "15 minuti",
@@ -144,34 +230,52 @@
   },
   {
     "id": 13,
-    "imgUrl":"https://cdn.pixabay.com/photo/2018/10/28/19/44/schnitzel-3779726_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2018/10/28/19/44/schnitzel-3779726_640.jpg",
     "name": "Cotolette di pollo",
     "type": "Secondo",
-    "ingredients": ["Petto di pollo", "Uova", "Pangrattato", "Farina", "Olio per friggere"],
+    "ingredients": [
+      "Petto di pollo",
+      "Uova",
+      "Pangrattato",
+      "Farina",
+      "Olio per friggere"
+    ],
     "instructions": "Inizia tagliando 2 petti di pollo in fettine sottili. Prepara tre piatti: uno con 100 g di farina, uno con 2 uova sbattute e uno con 150 g di pangrattato. Passa ogni fetta di pollo prima nella farina, poi nelle uova e infine nel pangrattato, assicurandoti che siano ben ricoperte. In una padella, scalda abbondante olio per friggere a fuoco medio-alto. Friggi le cotolette per circa 5-7 minuti per lato, finché non diventano dorate e croccanti. Sgocciolale su carta assorbente per eliminare l’olio in eccesso. Servi le cotolette calde, accompagnate da una fetta di limone e una fresca insalata verde.",
     "notes": "Croccanti e dorate, le cotolette sono un grande classico della cucina italiana. Perfette per una cena in famiglia, sono facili da preparare e possono essere personalizzate con spezie nel pangrattato per un sapore extra. Servitele con limone e insalata per un pasto bilanciato.",
     "prepTime": "15 minuti",
     "cookingTime": "15 minuti"
-
   },
   {
     "id": 14,
-    "imgUrl":"https://images.pexels.com/photos/6120511/pexels-photo-6120511.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "imgUrl": "https://images.pexels.com/photos/6120511/pexels-photo-6120511.jpeg?auto=compress&cs=tinysrgb&w=400",
     "name": "Zuppa di lenticchie",
     "type": "Primo",
-    "ingredients": ["Lenticchie", "Carote", "Sedano", "Cipolla", "Pomodori", "Brodo vegetale"],
+    "ingredients": [
+      "Lenticchie",
+      "Carote",
+      "Sedano",
+      "Cipolla",
+      "Pomodori",
+      "Brodo vegetale"
+    ],
     "instructions": "Inizia tritando finemente una cipolla, due carote e un gambo di sedano. In una pentola capiente, scalda 2-3 cucchiai di olio d'oliva e soffriggi le verdure a fuoco medio per circa 5-7 minuti, finché diventano tenere. Aggiungi 300 g di lenticchie sciacquate e mescola bene. Versa 1 litro di brodo vegetale e aggiungi 2 pomodori pelati a pezzi. Porta a ebollizione, poi riduci la fiamma e lascia cuocere a fuoco lento per 45-60 minuti, mescolando di tanto in tanto. Aggiusta di sale e pepe. Servi la zuppa calda, con un filo d'olio d'oliva a crudo e, se desideri, una spolverata di prezzemolo fresco.",
     "notes": "Ricca di nutrienti e sapori, questa zuppa è ideale per le giornate più fredde. Le lenticchie forniscono proteine, mentre le verdure rendono il piatto colorato e gustoso. Aggiungere spezie come cumino arricchisce ulteriormente il sapore, rendendola un comfort food perfetto.",
     "prepTime": "15 minuti",
     "cookingTime": "60 minuti"
-
   },
   {
     "id": 15,
-    "imgUrl":"https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/08/11/13/58/apple-pie-5479993_1280.jpg",
     "name": "Torta di mele",
     "type": "Dolce",
-    "ingredients": ["Farina", "Uova", "Zucchero", "Mele", "Burro", "Lievito"],
+    "ingredients": [
+      "Farina",
+      "Uova",
+      "Zucchero",
+      "Mele",
+      "Burro",
+      "Lievito"
+    ],
     "instructions": "Per la torta di mele, inizia sbattendo 3 uova con 150 g di zucchero in una ciotola fino a ottenere un composto chiaro e spumoso. Aggiungi 100 g di burro fuso e mescola bene. Setaccia 200 g di farina con 1 bustina di lievito e unisci al composto, mescolando fino a ottenere un impasto omogeneo. Sbuccia e affetta 2-3 mele e incorporale delicatamente nell'impasto. Versa il tutto in una tortiera imburrata e infarinata. Cuoci in forno preriscaldato a 180°C per 45-50 minuti, finché la torta è dorata e uno stuzzicadenti esce pulito. Lascia raffreddare prima di servire, e se vuoi, spolvera con zucchero a velo o cannella per un tocco in più.",
     "notes": "Un dolce che evoca nostalgia, la torta di mele è semplice da preparare e molto soddisfacente. L’aggiunta di cannella offre un aroma avvolgente, mentre le mele rendono l’impasto umido. Perfetta per una merenda o come dessert, può essere servita con una spolverata di zucchero a velo.",
     "prepTime": "20 minuti",
@@ -179,10 +283,16 @@
   },
   {
     "id": 16,
-    "imgUrl":"https://images.pexels.com/photos/5419330/pexels-photo-5419330.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "imgUrl": "https://images.pexels.com/photos/5419330/pexels-photo-5419330.jpeg?auto=compress&cs=tinysrgb&w=400",
     "name": "Penne all'arrabbiata",
     "type": "Primo",
-    "ingredients": ["Penne", "Pomodori", "Aglio", "Peperoncino", "Olio d'oliva"],
+    "ingredients": [
+      "Penne",
+      "Pomodori",
+      "Aglio",
+      "Peperoncino",
+      "Olio d'oliva"
+    ],
     "instructions": "Inizia portando a ebollizione una pentola di abbondante acqua salata. Cuoci 400 g di penne seguendo le istruzioni sulla confezione fino a ottenere una consistenza al dente. Scola la pasta, conservando un po' di acqua di cottura. Nel frattempo, in una padella scalda 4-5 cucchiai di olio d'oliva. Aggiungi 2 spicchi d'aglio tritati e un peperoncino rosso fresco o secco, e soffriggi per 1-2 minuti. Aggiungi 400 g di pomodori pelati e cuoci per circa 10 minuti, mescolando di tanto in tanto. Unisci le penne al sugo, mescolando bene. Se necessario, aggiungi un po' dell’acqua di cottura per rendere il sugo più cremoso. Servi caldo, guarnendo con prezzemolo fresco tritato e un filo d'olio d'oliva.",
     "notes": "Questa ricetta semplice e veloce per le penne all'arrabbiata è perfetta per chi ama i piatti piccanti. Il sugo a base di pomodori, aglio e peperoncino è aromatico e avvolgente. Per un risultato ancora più gustoso, usa pomodori freschi e aggiungi del prezzemolo tritato prima di servire. Ottima anche per un pranzo all’ultimo minuto o una cena informale con amici.",
     "prepTime": "10 minuti",
@@ -190,10 +300,16 @@
   },
   {
     "id": 17,
-    "imgUrl":"https://cdn.pixabay.com/photo/2018/06/19/16/46/antipasto-3484785_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2018/06/19/16/46/antipasto-3484785_1280.jpg",
     "name": "Vitello tonnato",
     "type": "Secondo",
-    "ingredients": ["Vitello", "Tonno", "Maionese", "Capperi", "Limone"],
+    "ingredients": [
+      "Vitello",
+      "Tonno",
+      "Maionese",
+      "Capperi",
+      "Limone"
+    ],
     "instructions": "Per il vitello tonnato, inizia a cuocere un pezzo di vitello (circa 1 kg) in acqua salata con cipolla, carota e sedano per circa un’ora, finché è tenero. Scola e lascia raffreddare. Prepara la salsa frullando 200 g di tonno in scatola, 2 cucchiai di capperi, 200 g di maionese e il succo di un limone fino a ottenere una crema liscia. Affetta il vitello e disponi le fette su un piatto. Copri con la salsa tonnata, guarnendo con qualche cappero intero e fettine di limone. Lascia riposare in frigorifero per almeno un’ora prima di servire, in modo che i sapori si amalgamino.",
     "notes": "Il vitello tonnato è un classico della cucina italiana, ideale per occasioni speciali e pranzi estivi. La preparazione della salsa può essere fatta in anticipo, risparmiando tempo. È un piatto da servire freddo, perfetto per accompagnare un aperitivo o un buffet. Per un tocco di freschezza, considera di aggiungere capperi extra o fettine di limone come guarnizione.",
     "prepTime": "20 minuti",
@@ -201,10 +317,16 @@
   },
   {
     "id": 18,
-    "imgUrl":"https://cdn.pixabay.com/photo/2016/05/05/12/48/dessert-1373821_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2016/05/05/12/48/dessert-1373821_640.jpg",
     "name": "Panna cotta",
     "type": "Dolce",
-    "ingredients": ["Panna", "Zucchero", "Vaniglia", "Gelatina", "Frutti di bosco"],
+    "ingredients": [
+      "Panna",
+      "Zucchero",
+      "Vaniglia",
+      "Gelatina",
+      "Frutti di bosco"
+    ],
     "instructions": "Per preparare la panna cotta, inizia mettendo a bagno 10 g di gelatina in fogli in acqua fredda per 10 minuti. In una casseruola, scalda 500 ml di panna, 100 g di zucchero e 1 bacca di vaniglia aperta, mescolando fino a sciogliere lo zucchero. Quando la panna è calda, aggiungi la gelatina strizzata e mescola bene. Versa il composto in stampini individuali e lascia raffreddare a temperatura ambiente, poi riponi in frigorifero per almeno 4 ore, o fino a quando la panna cotta è completamente rassodata. Per servire, sformala delicatamente su un piatto e guarnisci con frutti di bosco freschi o una salsa di frutta.",
     "notes": "La panna cotta è un dolce al cucchiaio cremoso e versatile, perfetto per ogni occasione. Puoi personalizzarlo con diverse salse di frutta o aromatizzazioni, come cioccolato o caramello. Preparalo in anticipo per garantire un dessert senza stress. La consistenza setosa e il sapore delicato lo rendono un successo garantito tra gli ospiti, accompagnato da frutti di bosco freschi.",
     "prepTime": "15 minuti",
@@ -212,10 +334,16 @@
   },
   {
     "id": 19,
-    "imgUrl":"https://cdn.pixabay.com/photo/2014/04/05/11/18/christmas-314945_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2014/04/05/11/18/christmas-314945_640.jpg",
     "name": "Frittelle di zucchine",
     "type": "Antipasto",
-    "ingredients": ["Zucchine", "Farina", "Uova", "Parmigiano", "Olio per friggere"],
+    "ingredients": [
+      "Zucchine",
+      "Farina",
+      "Uova",
+      "Parmigiano",
+      "Olio per friggere"
+    ],
     "instructions": "Grattugia le zucchine e strizzale per eliminare l'acqua in eccesso. In una ciotola, unisci le zucchine grattugiate con uova, farina, parmigiano grattugiato e un pizzico di sale, mescolando bene fino a ottenere un composto omogeneo. Scalda abbondante olio in una padella a fuoco medio-alto e, quando è caldo, preleva cucchiaiate di impasto e friggile fino a doratura, circa 3-4 minuti per lato. Scola le frittelle su carta assorbente per eliminare l'olio in eccesso e servile calde, con una spruzzata di limone se desiderato. Puoi anche aggiungere erbe aromatiche come prezzemolo o menta per un sapore fresco.",
     "notes": "Le frittelle di zucchine sono un antipasto sfizioso e leggero, ottimo per utilizzare le zucchine fresche di stagione. La loro preparazione è rapida, e possono essere servite calde o a temperatura ambiente. Aggiungere erbe aromatiche come prezzemolo o menta arricchisce il sapore. Perfette come finger food per aperitivi o buffet, sono sempre molto apprezzate.",
     "prepTime": "15 minuti",
@@ -223,10 +351,16 @@
   },
   {
     "id": 20,
-    "imgUrl":"https://images.pexels.com/photos/6544380/pexels-photo-6544380.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "imgUrl": "https://images.pexels.com/photos/6544380/pexels-photo-6544380.jpeg?auto=compress&cs=tinysrgb&w=400",
     "name": "Riso al curry",
     "type": "Primo",
-    "ingredients": ["Riso", "Cipolla", "Curry", "Brodo di pollo", "Panna"],
+    "ingredients": [
+      "Riso",
+      "Cipolla",
+      "Curry",
+      "Brodo di pollo",
+      "Panna"
+    ],
     "instructions": "Inizia scaldiando un filo d'olio extravergine d'oliva in una pentola capiente e aggiungi una cipolla tritata finemente. Soffriggi a fuoco medio fino a quando la cipolla diventa trasparente e morbida. A questo punto, aggiungi 1-2 cucchiaini di curry in polvere e mescola bene, cuocendo per un minuto per far sprigionare gli aromi. Successivamente, versa 300 g di riso basmati nella pentola e tostalo per 2 minuti, mescolando continuamente. Aggiungi 750 ml di brodo di pollo caldo, porta a ebollizione, quindi copri e abbassa la fiamma per cuocere a fuoco lento per circa 15 minuti, fino a quando il riso è tenero e ha assorbito tutto il liquido. Una volta cotto, spegni il fuoco e aggiungi 100 ml di panna da cucina, mescolando delicatamente per amalgamare i sapori. Guarnisci con coriandolo fresco tritato prima di servire, offrendo un piatto che sprigiona profumi avvolgenti e un gusto ricco e cremoso.",
     "notes": "Il riso al curry è un piatto ricco e saporito, facile da preparare. La combinazione di curry e panna crea una consistenza cremosa e avvolgente. Aggiungere verdure come piselli o carote rende il piatto più nutriente e colorato. È un'ottima opzione per un pasto veloce e soddisfacente, che porta un tocco esotico sulla tavola.",
     "prepTime": "10 minuti",
@@ -234,10 +368,16 @@
   },
   {
     "id": 21,
-    "imgUrl":"https://cdn.pixabay.com/photo/2015/09/03/09/58/eggplant-920269_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/09/03/09/58/eggplant-920269_1280.jpg",
     "name": "Melanzane alla parmigiana",
     "type": "Secondo",
-    "ingredients": ["Melanzane", "Pomodori", "Mozzarella", "Parmigiano", "Basilico"],
+    "ingredients": [
+      "Melanzane",
+      "Pomodori",
+      "Mozzarella",
+      "Parmigiano",
+      "Basilico"
+    ],
     "instructions": "Inizia tagliando 2 melanzane a fette di circa 1 cm di spessore e cospargile di sale grosso. Lascia riposare per 30 minuti in uno scolapasta per eliminare l'acqua in eccesso e l’amaro. Dopo il riposo, risciacqua le fette sotto acqua corrente e asciugale con un canovaccio. Scalda abbondante olio in una padella e friggile fino a doratura, quindi scolale su carta assorbente. Nel frattempo, in una casseruola, cuoci 800 g di pomodori pelati con 1 spicchio d'aglio schiacciato, un filo d'olio d'oliva e qualche foglia di basilico fresco, cuocendo a fuoco lento per circa 20 minuti fino a ottenere una salsa densa. In una teglia da forno, stendi un sottile strato di salsa di pomodoro sul fondo, quindi disponi uno strato di fette di melanzane, seguito da fette di mozzarella e una spolverata di parmigiano grattugiato. Ripeti gli strati fino a esaurire gli ingredienti, terminando con uno strato di salsa e parmigiano. Cuoci in forno preriscaldato a 180°C per 30-40 minuti, fino a quando la superficie è dorata e le melanzane sono tenere. Lascia riposare per qualche minuto prima di servire, per far amalgamare i sapori.",
     "notes": "Le melanzane alla parmigiana sono un grande classico della cucina italiana, apprezzate per la loro ricchezza e sapore. Puoi preparare il sugo in anticipo e assemblare il piatto prima di infornarlo. Questo piatto è ideale sia caldo che a temperatura ambiente, perfetto per pranzi in famiglia o cene con amici. La combinazione di melanzane, pomodoro e formaggio è irresistibile!",
     "prepTime": "30 minuti",
@@ -245,10 +385,14 @@
   },
   {
     "id": 22,
-    "imgUrl":"https://cdn.pixabay.com/photo/2013/11/29/10/41/eggnog-221043_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2013/11/29/10/41/eggnog-221043_640.jpg",
     "name": "Zabaione",
     "type": "Dolce",
-    "ingredients": ["Tuorli", "Zucchero", "Marsala"],
+    "ingredients": [
+      "Tuorli",
+      "Zucchero",
+      "Marsala"
+    ],
     "instructions": "In una ciotola resistente al calore, sbatti energicamente 4 tuorli d’uovo con 100 g di zucchero fino a ottenere un composto chiaro e spumoso. Posiziona la ciotola sopra una pentola con acqua bollente (bagnomaria) e continua a sbattere, aggiungendo lentamente 100 ml di marsala o vino bianco dolce a filo. Cuoci per circa 10 minuti, mescolando continuamente con una frusta fino a quando il composto si addensa e forma un velo. Una volta pronto, trasferisci lo zabaione in coppette e servi caldo o tiepido. Puoi anche arricchirlo con un pizzico di vaniglia o un po' di cacao in polvere per un tocco in più, magari accompagnandolo con biscotti savoiardi o frutta fresca per un dessert elegante e raffinato.",
     "notes": "Lo zabaione è un dolce al cucchiaio delicato e raffinato, perfetto per concludere un pasto. Può essere servito caldo o tiepido e abbinato a biscotti o frutta fresca per un tocco di freschezza. La sua preparazione è rapida, ma richiede attenzione per ottenere la giusta consistenza. È un dessert elegante, ideale per occasioni speciali o cene romantiche.",
     "prepTime": "10 minuti",
@@ -256,10 +400,17 @@
   },
   {
     "id": 23,
-    "imgUrl":"https://cdn.pixabay.com/photo/2021/12/14/19/53/dish-6871188_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2021/12/14/19/53/dish-6871188_640.jpg",
     "name": "Insalata di mare",
     "type": "Antipasto",
-    "ingredients": ["Gamberi", "Calamari", "Polpo", "Limone", "Olio d'oliva", "Prezzemolo"],
+    "ingredients": [
+      "Gamberi",
+      "Calamari",
+      "Polpo",
+      "Limone",
+      "Olio d'oliva",
+      "Prezzemolo"
+    ],
     "instructions": "Inizia portando a ebollizione una pentola d'acqua salata e cuoci separatamente 200 g di gamberi, 300 g di calamari e 400 g di polpo per 2-3 minuti. Scola i frutti di mare e lasciali raffreddare. Una volta raffreddati, affetta il polpo in pezzi sottili e taglia i calamari ad anelli. In una ciotola grande, unisci i frutti di mare, aggiungendo il succo di 2 limoni, 4 cucchiai di olio d'oliva, sale, pepe e abbondante prezzemolo tritato. Mescola bene e lascia riposare in frigorifero per 30 minuti per far amalgamare i sapori. Prima di servire, puoi aggiungere pomodorini tagliati a metà e avocado a cubetti per un tocco di freschezza e colore.",
     "notes": "L’insalata di mare è un antipasto fresco e leggero, perfetto per le calde giornate estive. La combinazione di frutti di mare con limone e prezzemolo crea un piatto aromatico e rinfrescante. Puoi aggiungere verdure come sedano o carote per un piatto più ricco e colorato. Ottima come antipasto o piatto principale, è un'opzione versatile per un pranzo al mare.",
     "prepTime": "20 minuti",
@@ -267,10 +418,16 @@
   },
   {
     "id": 24,
-    "imgUrl":"https://images.pexels.com/photos/12409905/pexels-photo-12409905.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "imgUrl": "https://images.pexels.com/photos/12409905/pexels-photo-12409905.jpeg?auto=compress&cs=tinysrgb&w=400",
     "name": "Cannelloni ricotta e spinaci",
     "type": "Primo",
-    "ingredients": ["Cannelloni", "Ricotta", "Spinaci", "Besciamella", "Parmigiano"],
+    "ingredients": [
+      "Cannelloni",
+      "Ricotta",
+      "Spinaci",
+      "Besciamella",
+      "Parmigiano"
+    ],
     "instructions": "Inizia lessando 250 g di spinaci freschi in acqua salata per 5 minuti. Scolali, strizzali bene per eliminare l'acqua in eccesso e tritali finemente. In una ciotola, mescola gli spinaci con 250 g di ricotta, un uovo, 100 g di parmigiano grattugiato e un pizzico di sale e pepe. Utilizza un cucchiaio o un sac à poche per riempire i cannelloni con il composto di ricotta e spinaci. In una teglia, versa un po' di besciamella sul fondo e disponi i cannelloni ripieni in un unico strato. Copri con la restante besciamella e spolvera con parmigiano grattugiato. Cuoci in forno preriscaldato a 180°C per 30-35 minuti, fino a quando la superficie è dorata e bollente. Lascia riposare per qualche minuto prima di servire, per permettere ai sapori di amalgamarsi meglio.",
     "notes": "I cannelloni ricotta e spinaci sono un primo piatto gustoso e confortante. La preparazione è semplice, e puoi personalizzare il ripieno aggiungendo erbe aromatiche o spezie. Questo piatto è perfetto per un pranzo in famiglia o per una cena tra amici. Preparali in anticipo e riscaldali prima di servire per un pasto senza stress ma ricco di sapore.",
     "prepTime": "20 minuti",
@@ -278,10 +435,16 @@
   },
   {
     "id": 25,
-    "imgUrl":"https://cdn.pixabay.com/photo/2018/06/18/21/58/fish-3483465_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2018/06/18/21/58/fish-3483465_640.jpg",
     "name": "Orata al cartoccio",
     "type": "Secondo",
-    "ingredients": ["Orata", "Limone", "Aglio", "Olio d'oliva", "Prezzemolo"],
+    "ingredients": [
+      "Orata",
+      "Limone",
+      "Aglio",
+      "Olio d'oliva",
+      "Prezzemolo"
+    ],
     "instructions": "Pulisci e eviscera un'orata da circa 1 kg, poi fai delle incisioni diagonali sulla pelle. Condisci l'orata con succo di limone, olio d'oliva, 2 spicchi d'aglio tritati e prezzemolo fresco, inserendo anche alcune fette di limone nella cavità. Posiziona l'orata su un foglio di carta forno, aggiungi un pizzico di sale e pepe e chiudi il cartoccio in modo da formare un pacchetto sigillato. Cuoci in forno preriscaldato a 200°C per 25-30 minuti. Apri il cartoccio con attenzione per evitare il vapore e servi caldo, arricchendo il piatto con verdure come pomodorini o zucchine per un contorno colorato e saporito.",
     "notes": "L'orata al cartoccio è un piatto di pesce semplice e gustoso, perfetto per una cena elegante. La cottura al cartoccio mantiene intatti i sapori e l'umidità, risultando in un pesce tenero e aromatico. Puoi personalizzare la ricetta aggiungendo altre erbe aromatiche o verdure come zucchine e pomodorini. Servito caldo, è ideale accompagnato da un contorno di verdure di stagione o una fresca insalata.",
     "prepTime": "10 minuti",
@@ -289,10 +452,15 @@
   },
   {
     "id": 26,
-    "imgUrl":"https://cdn.pixabay.com/photo/2012/06/28/10/29/cake-50927_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2012/06/28/10/29/cake-50927_640.jpg",
     "name": "Profiteroles",
     "type": "Dolce",
-    "ingredients": ["Bignè", "Cioccolato fondente", "Panna montata", "Zucchero"],
+    "ingredients": [
+      "Bignè",
+      "Cioccolato fondente",
+      "Panna montata",
+      "Zucchero"
+    ],
     "instructions": "Inizia preparando i bignè cuocendo 125 ml di acqua, 50 g di burro e un pizzico di sale in un pentolino. Quando il burro è sciolto, aggiungi 75 g di farina e mescola fino a ottenere un composto omogeneo. Togli dal fuoco e incorpora 2 uova, uno alla volta, fino a ottenere una pasta liscia. Forma delle palline di pasta su una teglia rivestita di carta forno e cuocile in forno preriscaldato a 200°C per 20-25 minuti, fino a quando sono dorate e gonfie. Una volta raffreddati, riempi i bignè con panna montata utilizzando un sac à poche. Sciogli 100 g di cioccolato fondente a bagnomaria e immergi i bignè nella salsa di cioccolato o versala sopra. Puoi variare la copertura utilizzando cioccolato bianco o crema pasticcera per un tocco creativo e servire i profiteroles su un piatto da portata, magari guarnendo con un po' di panna montata e frutta fresca.",
     "notes": "I profiteroles sono un dolce classico che affascina per la loro leggerezza e bontà. Questi bignè ripieni di panna montata e ricoperti di cioccolato fondente sono perfetti per occasioni speciali. Puoi anche sperimentare con diverse farciture, come crema pasticcera o gelato, e vari tipi di cioccolato per diversificare i sapori. Servili freddi per un dessert fresco e goloso!",
     "prepTime": "30 minuti",
@@ -300,10 +468,16 @@
   },
   {
     "id": 27,
-    "imgUrl":"https://cdn.pixabay.com/photo/2015/12/24/08/53/caprese-1106632_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/12/24/08/53/caprese-1106632_1280.jpg",
     "name": "Caprese",
     "type": "Antipasto",
-    "ingredients": ["Mozzarella di bufala", "Pomodori", "Basilico", "Olio d'oliva", "Sale"],
+    "ingredients": [
+      "Mozzarella di bufala",
+      "Pomodori",
+      "Basilico",
+      "Olio d'oliva",
+      "Sale"
+    ],
     "instructions": "Affetta 300 g di mozzarella di bufala e 300 g di pomodori a fette di spessore uniforme. Disponi le fette di mozzarella e pomodoro a strati su un piatto da portata, alternando i due ingredienti. Aggiungi foglie di basilico fresco, un filo d'olio extravergine d'oliva e un pizzico di sale per esaltare i sapori. Servi subito come antipasto, per mantenere la freschezza degli ingredienti. Puoi anche aggiungere un pizzico di pepe nero o un po' di aceto balsamico per un tocco di sapore in più, creando un piatto semplice ma ricco di freschezza e profumi mediterranei.",
     "notes": "La caprese è un antipasto fresco e colorato, simbolo della cucina mediterranea. Realizzata con mozzarella di bufala, pomodori e basilico, è ideale per esaltare ingredienti di alta qualità. Puoi arricchire il piatto con un filo d'olio d'oliva extravergine e, se ti piace, aggiungere un pizzico di pepe o aceto balsamico per un sapore extra. Servita subito, mantiene freschezza e leggerezza.",
     "prepTime": "10 minuti",
@@ -311,10 +485,16 @@
   },
   {
     "id": 28,
-    "imgUrl":"https://cdn.pixabay.com/photo/2023/01/01/21/21/gnocchi-7690877_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2023/01/01/21/21/gnocchi-7690877_640.jpg",
     "name": "Gnocchi al pesto",
     "type": "Primo",
-    "ingredients": ["Gnocchi", "Basilico", "Pinoli", "Parmigiano", "Olio d'oliva"],
+    "ingredients": [
+      "Gnocchi",
+      "Basilico",
+      "Pinoli",
+      "Parmigiano",
+      "Olio d'oliva"
+    ],
     "instructions": "Porta a ebollizione una pentola d'acqua salata e cuoci 500 g di gnocchi freschi fino a quando salgono in superficie. Nel frattempo, prepara il pesto frullando 50 g di basilico fresco, 30 g di pinoli, 50 g di parmigiano grattugiato e 100 ml di olio d'oliva fino a ottenere una crema omogenea. Scola gli gnocchi e condiscili subito con il pesto, mescolando delicatamente per evitare che si rompano. Servi subito, guarnendo con parmigiano grattugiato e aggiungendo fagiolini o patate lessate per un piatto più ricco, se desiderato. Questo piatto semplice è perfetto per esaltare i sapori freschi del basilico e dei pinoli.",
     "notes": "Gli gnocchi al pesto sono un primo piatto veloce e saporito, perfetto per le serate d'estate. Il pesto fresco, preparato con basilico, pinoli e parmigiano, si sposa perfettamente con gli gnocchi morbidi. Aggiungere fagiolini o patate lessate rende il piatto ancora più ricco. Servi con una generosa spolverata di parmigiano per un piatto delizioso e aromatico.",
     "prepTime": "10 minuti",
@@ -322,10 +502,16 @@
   },
   {
     "id": 29,
-    "imgUrl":"https://cdn.pixabay.com/photo/2022/10/12/22/05/meatballs-7517633_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2022/10/12/22/05/meatballs-7517633_640.jpg",
     "name": "Polpette al sugo",
     "type": "Secondo",
-    "ingredients": ["Carne macinata", "Uova", "Pangrattato", "Parmigiano", "Pomodori"],
+    "ingredients": [
+      "Carne macinata",
+      "Uova",
+      "Pangrattato",
+      "Parmigiano",
+      "Pomodori"
+    ],
     "instructions": "In una ciotola, mescola 500 g di carne macinata (manzo o maiale), 1 uovo, 100 g di pangrattato, 50 g di parmigiano grattugiato, un pizzico di sale e pepe. Forma delle palline di dimensione simile a una noce. In una padella, scalda un po' d'olio d'oliva e rosola le polpette fino a doratura su tutti i lati. Aggiungi 800 g di pomodori pelati in scatola, schiacciandoli con una forchetta, e cuoci a fuoco lento per 30-40 minuti. Servi le polpette calde con il sugo, guarnendo il piatto con un po' di prezzemolo tritato per freschezza e un pizzico di pepe nero per dare un tocco in più. Questo piatto è perfetto da servire con del pane croccante o della polenta.",
     "notes": "Le polpette al sugo sono un grande classico della cucina italiana, amato da tutti. La carne macinata, combinata con pangrattato e parmigiano, crea delle polpette saporite e morbide. Cotte in un ricco sugo di pomodoro, possono essere servite con pasta, purè o pane croccante. Un piatto che porta calore e convivialità a ogni tavola!",
     "prepTime": "20 minuti",
@@ -333,10 +519,16 @@
   },
   {
     "id": 30,
-    "imgUrl":"https://cdn.pixabay.com/photo/2020/12/17/10/18/cheesecake-5838905_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/12/17/10/18/cheesecake-5838905_1280.jpg",
     "name": "Cheesecake",
     "type": "Dolce",
-    "ingredients": ["Formaggio spalmabile", "Biscotti", "Burro", "Zucchero", "Panna"],
+    "ingredients": [
+      "Formaggio spalmabile",
+      "Biscotti",
+      "Burro",
+      "Zucchero",
+      "Panna"
+    ],
     "instructions": "Inizia sbriciolando 200 g di biscotti secchi e mescolali con 100 g di burro fuso per preparare la base. Premi il composto in una teglia a cerniera, formando uno strato uniforme. In una ciotola, sbatti 400 g di formaggio spalmabile con 150 g di zucchero e 200 ml di panna fino a ottenere un composto cremoso. Versa il ripieno sulla base di biscotti e livella la superficie. Metti in frigorifero per almeno 4 ore, meglio se tutta la notte, per far rapprendere bene il cheesecake. Quando sei pronto a servire, sforma e guarnisci a piacere con frutta fresca, marmellata o una spruzzata di cacao in polvere per un dessert delizioso e rinfrescante, perfetto per ogni occasione.",
     "notes": "Il cheesecake è un dolce cremoso e versatile, perfetto per ogni occasione. La base di biscotti sbriciolati e burro è semplice da preparare e si sposa magnificamente con il ripieno di formaggio spalmabile e panna. Puoi personalizzare la guarnizione con frutta fresca o marmellata per aggiungere un tocco di freschezza. Servito freddo, è un dessert che conquista al primo assaggio.",
     "prepTime": "20 minuti",
@@ -344,10 +536,16 @@
   },
   {
     "id": 31,
-    "imgUrl":"https://cdn.pixabay.com/photo/2015/05/21/20/35/carpaccio-777850_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/05/21/20/35/carpaccio-777850_1280.jpg",
     "name": "Carpaccio di manzo",
     "type": "Antipasto",
-    "ingredients": ["Manzo", "Rucola", "Grana", "Limone", "Olio d'oliva"],
+    "ingredients": [
+      "Manzo",
+      "Rucola",
+      "Grana",
+      "Limone",
+      "Olio d'oliva"
+    ],
     "instructions": "Per preparare un delizioso carpaccio di manzo, inizia affettando il manzo molto sottilmente; per facilitare questo passaggio, puoi mettere la carne in freezer per 15-20 minuti. Una volta affettata, disponi le fette su un piatto grande senza sovrapporle troppo. Spremi il succo di un limone fresco sopra le fette e aggiungi un filo d'olio d'oliva, quindi condisci con sale e pepe a piacere. Per un tocco finale, guarnisci il carpaccio con rucola fresca e scaglie di grana, distribuendole uniformemente. Servi subito come antipasto per un'esperienza fresca e saporita.",
     "notes": "Il carpaccio di manzo è un antipasto elegante e raffinato, perfetto per le cene speciali. La carne affettata sottilmente è condita con limone e olio d'oliva, mentre la rucola e il grana aggiungono freschezza e sapore. Servilo immediatamente per mantenere la delicatezza dei sapori e l'effetto fresco. Un piatto che stupisce sempre per la sua semplicità e raffinatezza.",
     "prepTime": "10 minuti",
@@ -355,10 +553,16 @@
   },
   {
     "id": 32,
-    "imgUrl":"https://cdn.pixabay.com/photo/2022/10/14/17/06/porcini-pasta-7521732_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2022/10/14/17/06/porcini-pasta-7521732_640.jpg",
     "name": "Tagliatelle ai porcini",
     "type": "Primo",
-    "ingredients": ["Tagliatelle", "Funghi porcini", "Aglio", "Prezzemolo", "Olio d'oliva"],
+    "ingredients": [
+      "Tagliatelle",
+      "Funghi porcini",
+      "Aglio",
+      "Prezzemolo",
+      "Olio d'oliva"
+    ],
     "instructions": "Inizia la preparazione delle tagliatelle ai porcini cuocendo le tagliatelle in acqua salata seguendo le istruzioni sulla confezione. Mentre la pasta cuoce, in una padella scalda un filo d'olio d'oliva e aggiungi aglio tritato, lasciandolo soffriggere per un minuto. Aggiungi i funghi porcini freschi, mescolando bene fino a quando non diventano teneri. Una volta cotte, scola le tagliatelle e uniscile ai funghi nella padella, mescolando per amalgamare i sapori. Servi le tagliatelle calde, guarnite con prezzemolo fresco tritato per un piatto dal profumo avvolgente e dal sapore ricco.",
     "notes": "Le tagliatelle ai porcini sono un primo piatto autunnale ricco di sapore. I funghi porcini freschi si uniscono alle tagliatelle in un connubio perfetto di aromi. Puoi arricchire la ricetta con spezie o erbe aromatiche per esaltare il gusto. Servi il piatto caldo, guarnito con prezzemolo fresco, per un'esperienza culinaria autentica e avvolgente.",
     "prepTime": "10 minuti",
@@ -366,10 +570,16 @@
   },
   {
     "id": 33,
-    "imgUrl":"https://images.pexels.com/photos/27953851/pexels-photo-27953851/free-photo-of-carne-di-pollo-succosa.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "imgUrl": "https://images.pexels.com/photos/27953851/pexels-photo-27953851/free-photo-of-carne-di-pollo-succosa.jpeg?auto=compress&cs=tinysrgb&w=400",
     "name": "Coniglio alla ligure",
     "type": "Secondo",
-    "ingredients": ["Coniglio", "Olive", "Vino bianco", "Rosmarino", "Aglio"],
+    "ingredients": [
+      "Coniglio",
+      "Olive",
+      "Vino bianco",
+      "Rosmarino",
+      "Aglio"
+    ],
     "instructions": "Per preparare il coniglio alla ligure, inizia tagliando il coniglio in pezzi e condisci con sale, pepe e rosmarino. In una padella grande, scalda un filo d'olio d'oliva e aggiungi aglio tritato, soffriggendolo per 1-2 minuti. Aggiungi i pezzi di coniglio e rosolali su tutti i lati fino a doratura. Versa quindi del vino bianco nella padella, porta a ebollizione e lascia sfumare per 2-3 minuti. Aggiungi le olive e copri con un coperchio, cuocendo a fuoco lento per circa 40 minuti, mescolando di tanto in tanto e aggiungendo un po’ d'acqua se necessario. Una volta cotto, guarnisci con rosmarino fresco e servi caldo, accompagnato da contorni di verdure o purè di patate per un pasto completo e saporito.",
     "notes": "Il Coniglio alla ligure è un piatto ricco di sapori mediterranei, perfetto per una cena in famiglia. Le olive e il vino bianco esaltano la carne del coniglio, rendendo il piatto ancora più gustoso. Si consiglia di utilizzare conigli freschi per un risultato ottimale e di accompagnare il piatto con contorni di verdure di stagione o purè di patate. Per una variante, prova ad aggiungere pomodorini freschi durante la cottura per un tocco di dolcezza.",
     "prepTime": "20 minuti",
@@ -377,10 +587,16 @@
   },
   {
     "id": 34,
-    "imgUrl":"https://cdn.pixabay.com/photo/2017/06/16/18/35/tarte-2409958_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/06/16/18/35/tarte-2409958_1280.jpg",
     "name": "Crostata di limone",
     "type": "Dolce",
-    "ingredients": ["Farina", "Burro", "Uova", "Limone", "Zucchero"],
+    "ingredients": [
+      "Farina",
+      "Burro",
+      "Uova",
+      "Limone",
+      "Zucchero"
+    ],
     "instructions": "Inizia la preparazione della crostata di limone mescolando farina, burro morbido e zucchero in una ciotola fino a ottenere un composto sabbioso. Aggiungi un uovo e continua a impastare fino a formare una palla, avvolgila nella pellicola e lasciala riposare in frigo per 30 minuti. Nel frattempo, prepara la crema di limone sbattendo le uova con lo zucchero, quindi aggiungi il succo e la scorza di limone. Cuoci a fuoco lento mescolando continuamente fino a quando la crema si addensa. Stendi la frolla in una teglia rivestita di carta da forno, versa la crema di limone sopra la base e cuoci in forno preriscaldato a 180°C per 30-35 minuti, fino a doratura. Lascia raffreddare prima di servire per gustare un dolce fresco e agrumato.",
     "notes": "La Crostata di limone è un dolce fresco e agrumato, ideale per le calde giornate estive. La frolla burrosa e croccante si sposa perfettamente con la crema di limone, creando un equilibrio di sapori. Per una decorazione elegante, puoi guarnire la crostata con fettine di limone o una spolverata di zucchero a velo. Questo dolce si conserva bene in frigorifero e può essere preparato in anticipo, rendendolo perfetto per eventi speciali.",
     "prepTime": "30 minuti",
@@ -388,10 +604,16 @@
   },
   {
     "id": 35,
-    "imgUrl":"https://cdn.pixabay.com/photo/2021/04/06/12/37/arancini-6156227_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2021/04/06/12/37/arancini-6156227_640.jpg",
     "name": "Supplì al telefono",
     "type": "Antipasto",
-    "ingredients": ["Riso", "Mozzarella", "Uova", "Pangrattato", "Pomodori"],
+    "ingredients": [
+      "Riso",
+      "Mozzarella",
+      "Uova",
+      "Pangrattato",
+      "Pomodori"
+    ],
     "instructions": "Inizia la preparazione dei supplì al telefono cuocendo il riso in acqua salata o brodo fino a quando è al dente; una volta cotto, lascialo raffreddare. In una ciotola, aggiungi al riso mozzarella tagliata a cubetti e un po' di salsa di pomodoro, mescolando bene per amalgamare gli ingredienti. Prendi una porzione di riso e forma una pallina, allungandola poi in una forma cilindrica. Passa i supplì nelle uova sbattute e poi nel pangrattato, assicurandoti di impanarli bene. Scalda l'olio in una padella profonda e friggi i supplì fino a doratura, quindi scolali su carta assorbente prima di servirli caldi per gustare un antipasto croccante e filante.",
     "notes": "I Supplì al telefono sono un antipasto croccante e filante, amato in tutta Italia. La mozzarella fusa all'interno del riso rende ogni morso un'esperienza unica. Assicurati di friggere a temperatura adeguata per ottenere una doratura perfetta e una consistenza croccante all'esterno. Puoi anche variare il ripieno aggiungendo ingredienti come prosciutto o piselli. Servili caldi per un'esplosione di sapore!",
     "prepTime": "20 minuti",
@@ -399,10 +621,16 @@
   },
   {
     "id": 36,
-    "imgUrl":"https://cdn.pixabay.com/photo/2023/05/27/13/49/soup-8021570_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2023/05/27/13/49/soup-8021570_640.jpg",
     "name": "Minestrone",
     "type": "Primo",
-    "ingredients": ["Verdure miste", "Patate", "Cipolla", "Brodo vegetale", "Olio d'oliva"],
+    "ingredients": [
+      "Verdure miste",
+      "Patate",
+      "Cipolla",
+      "Brodo vegetale",
+      "Olio d'oliva"
+    ],
     "instructions": "Per preparare un minestrone ricco e saporito, inizia lavando e tagliando a cubetti le verdure miste e le patate; trita finemente anche la cipolla. In una pentola grande, scalda un filo d'olio d'oliva e soffriggi la cipolla fino a quando diventa trasparente. Aggiungi le patate e le verdure nella pentola, mescolando bene e cuocendo per 5 minuti. Versa il brodo vegetale e porta a ebollizione. Riduci la fiamma e cuoci a fuoco lento per 30-40 minuti, fino a quando le verdure sono tenere. Regola di sale e pepe e servi caldo, guarnito con un filo d'olio d'oliva a crudo, per un primo piatto nutriente e confortante.",
     "notes": "Il Minestrone è un primo piatto sano e nutriente, perfetto per ogni stagione. Puoi personalizzarlo in base alle verdure di stagione disponibili, rendendolo versatile e ricco di sapori. L'aggiunta di legumi come fagioli o lenticchie lo rende ancora più sostanzioso. Servi il minestrone caldo, guarnito con un filo d'olio d'oliva a crudo per esaltare ulteriormente il suo sapore. È un piatto ideale anche per un pranzo leggero.",
     "prepTime": "10 minuti",
@@ -410,10 +638,16 @@
   },
   {
     "id": 37,
-    "imgUrl":"https://cdn.pixabay.com/photo/2019/12/20/21/29/scallops-4709349_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2019/12/20/21/29/scallops-4709349_1280.jpg",
     "name": "Scaloppine al limone",
     "type": "Secondo",
-    "ingredients": ["Vitello", "Limone", "Farina", "Burro", "Prezzemolo"],
+    "ingredients": [
+      "Vitello",
+      "Limone",
+      "Farina",
+      "Burro",
+      "Prezzemolo"
+    ],
     "instructions": "Per preparare le scaloppine al limone, inizia battendo le fette di vitello tra due fogli di pellicola trasparente fino a ottenere uno spessore uniforme; poi, infarina leggermente le fette. In una padella, sciogli il burro a fuoco medio e aggiungi le scaloppine, cuocendole per 2-3 minuti per lato fino a doratura. Aggiungi il succo di limone e lascia sfumare per un paio di minuti, mescolando delicatamente per amalgamare i sapori. Servi le scaloppine calde, guarnite con prezzemolo fresco tritato, per un secondo piatto dal sapore fresco e agrumato, perfetto da accompagnare con purè di patate o insalata.",
     "notes": "Le Scaloppine al limone sono un secondo piatto semplice ma ricco di gusto. La freschezza del limone e il burro creano una salsa deliziosa che si sposa bene con la carne di vitello. Puoi variare la ricetta aggiungendo capperi o olive per un sapore ancora più intenso. Servile con un contorno di purè di patate o un'insalata fresca per un pasto equilibrato e delizioso.",
     "prepTime": "10 minuti",
@@ -421,10 +655,15 @@
   },
   {
     "id": 38,
-    "imgUrl":"https://cdn.pixabay.com/photo/2018/01/12/16/31/nougat-3078581_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2018/01/12/16/31/nougat-3078581_1280.jpg",
     "name": "Mousse al cioccolato",
     "type": "Dolce",
-    "ingredients": ["Cioccolato fondente", "Panna", "Uova", "Zucchero"],
+    "ingredients": [
+      "Cioccolato fondente",
+      "Panna",
+      "Uova",
+      "Zucchero"
+    ],
     "instructions": "Per preparare una deliziosa mousse al cioccolato, inizia sciogliendo il cioccolato fondente a bagnomaria e lascialo raffreddare leggermente. Monta la panna fresca in una ciotola fino a ottenere una consistenza soffice. Aggiungi delicatamente il cioccolato fuso alla panna montata, mescolando dal basso verso l'alto per non smontare il composto. Versa la mousse in coppette e lascia raffreddare in frigorifero per almeno 3 ore prima di servirla, per ottenere una consistenza leggera e vellutata. Servi la mousse come dessert finale, magari guarnita con scaglie di cioccolato o frutta fresca per un tocco decorativo.",
     "notes": "La Mousse al cioccolato è un dessert classico e irresistibile. La sua consistenza leggera e vellutata la rende perfetta per concludere un pasto in modo elegante. Puoi arricchirla con scaglie di cioccolato o frutta fresca per un tocco decorativo. Assicurati di refrigerarla per almeno tre ore per ottenere la giusta consistenza. Questa mousse è ideale per occasioni speciali o come dolce da gustare in qualsiasi momento.",
     "prepTime": "30 minuti",
@@ -432,10 +671,15 @@
   },
   {
     "id": 39,
-    "imgUrl":"https://cdn.pixabay.com/photo/2020/08/19/09/33/panzerotti-5500502_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2020/08/19/09/33/panzerotti-5500502_1280.jpg",
     "name": "Panzerotti",
     "type": "Antipasto",
-    "ingredients": ["Pasta per pizza", "Mozzarella", "Pomodori", "Olio per friggere"],
+    "ingredients": [
+      "Pasta per pizza",
+      "Mozzarella",
+      "Pomodori",
+      "Olio per friggere"
+    ],
     "instructions": "Inizia la preparazione dei panzerotti tagliando la mozzarella a dadini e mescolandola con pomodori pelati ben scolati. Stendi la pasta per pizza e ritaglia dei cerchi di circa 10 cm di diametro. Riempi ciascun cerchio con il ripieno di mozzarella e pomodori, richiudendo a mezzaluna e sigillando bene i bordi per evitare che si aprano durante la frittura. Scalda l'olio in una padella profonda e friggi i panzerotti fino a doratura, poi scolali su carta assorbente. Servi caldi per gustare un antipasto croccante e filante, perfetto per ogni occasione.",
     "notes": "I Panzerotti sono un antipasto fritto croccante, ripieno di mozzarella e pomodoro. La preparazione è semplice, ma la chiave è sigillare bene i bordi per evitare che si aprano durante la frittura. Puoi sperimentare con diversi ripieni, come prosciutto o funghi, per variare i sapori. Servili caldi, accompagnati da una salsa di pomodoro per intingere, per un’esperienza deliziosa e autentica.",
     "prepTime": "30 minuti",
@@ -443,10 +687,16 @@
   },
   {
     "id": 40,
-    "imgUrl":"https://cdn.pixabay.com/photo/2015/11/16/16/23/pasta-1045945_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2015/11/16/16/23/pasta-1045945_640.jpg",
     "name": "Orecchiette alle cime di rapa",
     "type": "Primo",
-    "ingredients": ["Orecchiette", "Cime di rapa", "Aglio", "Acciughe", "Olio d'oliva"],
+    "ingredients": [
+      "Orecchiette",
+      "Cime di rapa",
+      "Aglio",
+      "Acciughe",
+      "Olio d'oliva"
+    ],
     "instructions": "Per preparare le orecchiette alle cime di rapa, inizia lavando accuratamente le cime di rapa e rimuovendo le parti più dure, conservando solo le foglie e i fiori più teneri. Porta a ebollizione una pentola d'acqua salata e cuoci le orecchiette insieme alle cime di rapa, che cuoceranno nello stesso tempo. Nel frattempo, in una padella, scalda l'olio d'oliva e aggiungi aglio tritato e filetti di acciughe, cuocendo a fuoco medio fino a che le acciughe non si sciolgono. Scola le orecchiette e le cime di rapa, unendole nella padella con l'aglio e le acciughe, mescolando bene per insaporire. Servi le orecchiette con un filo d'olio crudo e, se gradito, una spolverata di peperoncino per un piatto dal gusto deciso.",
     "notes": "Le Orecchiette alle cime di rapa sono un piatto tradizionale pugliese, semplice ma ricco di sapore. L'abbinamento delle orecchiette con le cime di rapa e le acciughe crea un equilibrio perfetto di gusti. Puoi aggiungere peperoncino per un tocco piccante, rendendo il piatto ancora più interessante. Questo piatto è ideale per un pranzo leggero o una cena informale, accompagnato da un buon vino bianco.",
     "prepTime": "10 minuti",
@@ -454,10 +704,15 @@
   },
   {
     "id": 41,
-    "imgUrl":"https://cdn.pixabay.com/photo/2017/07/26/11/49/sea-bass-2541477_1280.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2017/07/26/11/49/sea-bass-2541477_1280.jpg",
     "name": "Branzino al sale",
     "type": "Secondo",
-    "ingredients": ["Branzino", "Sale grosso", "Limone", "Olio d'oliva"],
+    "ingredients": [
+      "Branzino",
+      "Sale grosso",
+      "Limone",
+      "Olio d'oliva"
+    ],
     "instructions": "Per preparare il branzino al sale, inizia sciacquando bene il pesce e asciugandolo con carta da cucina. Inserisci all'interno del pesce alcune fette di limone e un rametto di erbe aromatiche. Prendi una teglia e distribuisci uno strato di sale grosso sul fondo; adagia il branzino sopra e ricoprilo completamente con altro sale, premendo bene per sigillare. Cuoci in forno preriscaldato a 200°C per circa 30-35 minuti, a seconda delle dimensioni del pesce. Una volta cotto, estrai il pesce dal forno e rompi il sale con delicatezza; servi il branzino caldo, accompagnato da un filo d'olio d'oliva e qualche fetta di limone per esaltare il sapore fresco e delicato del pesce.",
     "notes": "Il Branzino al sale è un secondo piatto elegante e saporito. La cottura nel sale mantiene il pesce umido e saporito, mentre le fette di limone aggiungono freschezza. È un piatto facile da preparare, ma l'effetto scenico è garantito quando si rompe la crosta di sale al momento di servire. Accompagnalo con verdure grigliate o una fresca insalata per un pasto sano e gustoso.",
     "prepTime": "10 minuti",
@@ -465,13 +720,34 @@
   },
   {
     "id": 42,
-    "imgUrl":"https://cdn.pixabay.com/photo/2013/11/28/04/15/cake-219595_640.jpg",
+    "imgUrl": "https://cdn.pixabay.com/photo/2013/11/28/04/15/cake-219595_640.jpg",
     "name": "Crema catalana",
     "type": "Dolce",
-    "ingredients": ["Latte", "Zucchero", "Uova", "Cannella", "Zucchero di canna"],
+    "ingredients": [
+      "Latte",
+      "Zucchero",
+      "Uova",
+      "Cannella",
+      "Zucchero di canna"
+    ],
     "instructions": "Inizia scaldando 500 ml di latte in un pentolino, aggiungendo una stecca di cannella e la scorza di un limone. Porta il latte quasi a ebollizione, poi spegni il fuoco e lascia in infusione per circa 10 minuti per far assorbire i sapori. Nel frattempo, in una ciotola, sbatti 4 tuorli d’uovo con 100 g di zucchero fino a ottenere un composto chiaro e spumoso. Aggiungi 30 g di amido di mais setacciato e mescola bene per evitare grumi. Una volta che il latte ha riposato, filtralo per eliminare la cannella e la scorza di limone, e versalo lentamente sul composto di uova, mescolando continuamente per temperare le uova e prevenire la formazione di grumi. Trasferisci il composto di nuovo nel pentolino e cuoci a fuoco basso, mescolando costantemente fino a quando la crema inizia ad addensarsi, ma senza farla bollire. Una volta raggiunta la consistenza desiderata, versa la crema in ciotoline individuali e lasciala raffreddare a temperatura ambiente, poi trasferiscile in frigorifero per almeno 2 ore per far rapprendere ulteriormente la crema. Prima di servire, spolvera la superficie con un sottile strato di zucchero di canna e usa un cannello da cucina per caramellare lo zucchero fino a formare una crosticina croccante. Servi la Crema catalana fredda e goditi questo delizioso dessert.",
     "notes": "La Crema catalana è un dolce tradizionale spagnolo, simile alla crème brûlée, ma con un tocco di cannella e scorza di limone. La crosticina caramellata sopra la crema è la parte più divertente e gustosa. Assicurati di caramellare lo zucchero appena prima di servire per una consistenza croccante. Questo dessert è perfetto per concludere un pasto in modo raffinato e può essere preparato in anticipo, rendendolo ideale per occasioni speciali.",
     "prepTime": "15 minuti",
     "cookingTime": "10 minuti + raffreddamento"
+  },
+  {
+    "id": 43,
+    "creataDa": "w",
+    "email": "domenicoascolese0@gmail.com",
+    "name": "ss",
+    "type": "Antipasto",
+    "ingredients": [
+      "qwd"
+    ],
+    "instructions": "wqd",
+    "notes": "wd",
+    "prepTime": "1h",
+    "cookingTime": "4m",
+    "imgUrl": "../server/images\\1728032866909-errorPage2 (1).svg"
   }
 ]

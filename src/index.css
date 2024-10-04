@@ -430,8 +430,9 @@ a{
 }
 
 .recipeDetail-title{
+    margin-left:45px;
     border-bottom:4px solid #FEBD2F;
-    /* font-size:50px; */
+    font-size:50px;
 }
 
 #recipeDetail-1{
@@ -463,6 +464,15 @@ a{
     border-radius:20px;
 }
 
+.creata-da{
+    font-weight:600;
+}
+
+.creata-da h4{
+    font-size:32px;
+    font-weight:600;
+}
+
 #recipeDetail-111 li{
     /* border:1pùx solid red; */
     margin-left:20px;
@@ -477,6 +487,13 @@ a{
     color:white;
     border-radius:20px;
     line-height:1.5;
+    font-weight:600;
+}
+
+#recipeDetail-112 h2{
+    font-weight:600;
+}
+#recipeDetail-111 h2{
     font-weight:600;
 }
 
@@ -529,6 +546,10 @@ a{
 #recipeDetail-istructions{
     width:90%;
     margin-top:5%;
+}
+
+#recipeDetail-istructions h2{
+    font-weight:600;
 }
 
 #recipeDetail-istructions p{

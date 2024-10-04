@@ -52,6 +52,13 @@ export default function RecipeDetail(){
                         <br />
                         {singleRecipe ? <p>{singleRecipe.notes}</p> : <p>Caricamento...</p>}
                     </div>
+                    {
+                        singleRecipe.creataDa ?
+                            <p className="creata-da">CREATA DA  <br/> <h4>{singleRecipe.creataDa}</h4></p>
+                        : 
+                            null
+                    }
+                    
                     
                 </div>
                 <div id="recipeDetail-12">

@@ -1,10 +1,26 @@
 import express from 'express';
+import multer from 'multer';
 import cors from 'cors';
 import { readFile, writeFile } from 'fs/promises';
 import bcrypt from 'bcrypt'; // Per la cifratura della password
+import path from 'path';
+
 
 const app = express();
 const port = 3002;
+
+// Configura multer per salvare le immagini nella cartella 'images'
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, 'images/');
+  },
+  filename: (req, file, cb) => {
+    cb(null, Date.now() + '-' + file.originalname);  // Usa un timestamp per garantire nomi unici
+  }
+});
+
+const upload = multer({ storage: storage });  // Caricamento dell'immagine con multer
+
 
 app.use(cors());
 app.use(express.json());
@@ -136,6 +152,54 @@ app.post('/api/login', async (req, res) => {
 
   // Credenziali errate
   res.status(401).json({ message: 'Credenziali non valide' });
+});
+
+app.post('/api/recipes', upload.single('imgUrl'), async (req, res) => {
+  const { creataDa, email, name, type, ingredients, instructions, notes, prepTime, cookingTime } = req.body;
+
+  if (!creataDa || !email || !name || !type || !ingredients || !instructions || !prepTime || !cookingTime) {
+    return res.status(400).json({ message: 'Tutti i campi obbligatori devono essere compilati.' });
+  }
+
+  let recipes = [];
+  try {
+    const data = await readFile('./ricette.json', 'utf8');
+    recipes = JSON.parse(data);
+  } catch (error) {
+    console.error('Errore nel leggere il file delle ricette:', error);
+    return res.status(500).json({ message: 'Errore nel server' });
+  }
+
+  const newId = recipes.length > 0 ? Math.max(...recipes.map(recipe => recipe.id)) + 1 : 1;
+
+  // Se c'è un'immagine, ottieni il percorso
+  // const imgUrl = req.file ? req.file.path : null;
+  const imgUrl = req.file ? `../server/${req.file.path}` : null;
+
+
+  const newRecipe = {
+    id: newId,
+    creataDa,
+    email,
+    name,
+    type,
+    ingredients,
+    instructions,
+    notes,
+    prepTime,
+    cookingTime,
+    imgUrl
+  };
+
+  recipes.push(newRecipe);
+
+  try {
+    await writeFile('./ricette.json', JSON.stringify(recipes, null, 2));
+    res.status(201).json({ message: 'Ricetta aggiunta con successo', newRecipe });
+  } catch (error) {
+    console.error('Errore nel salvare la ricetta:', error);
+    res.status(500).json({ message: 'Errore nel server' });
+  }
 });
 
 app.listen(port, () => {

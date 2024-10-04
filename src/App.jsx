@@ -13,6 +13,7 @@ import { AuthProvider } from "../componenti/AuthContext"
 import Auth from "../componenti/Auth"
 import { getRecipes, loaderRecipeDetail } from "./loader"
 import Iscrizione from "../componenti/Iscrizione"
+import { recipeAction } from "../server/recipeAction"
 
 
 const router = createBrowserRouter(createRoutesFromElements(
@@ -24,7 +25,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route path="support" element={<Support />} />
       <Route path="recipes/:id" element={<RecipeDetail />} loader={loaderRecipeDetail} />
       <Route element={<Auth />}>
-        <Route path="page1" element={<Page1 />} loader={getRecipes} />
+        <Route path="page1" element={<Page1 />} action={recipeAction}/>
       </Route>
     </Route>
     <Route path="login" element={<Login />} />

@@ -1,13 +1,10 @@
-import { useState } from "react";
-import { useLoaderData } from "react-router-dom"
+import { useEffect, useState } from "react";
+import { Form } from "react-router-dom"
 export default function Page1(){
 
-    const recipes = useLoaderData();
 
-    const idLast = recipes.at(-1).id;
 
     const recipeObj = {
-        id : idLast + 1,
         creataDa : "",
         email : "",
         imgUrl : "" ,
@@ -20,6 +17,8 @@ export default function Page1(){
         cookingTime :""
     }
 
+    
+
 
 
     const [userRecipe, setUserRecipe] = useState(recipeObj);
@@ -28,17 +27,15 @@ export default function Page1(){
         setUserRecipe(
             {
                 ...userRecipe,
-                [e.target.name] : e.target.value 
+                [e.target.name] : e.target.value
             }
         )
     }
 
     function handleImageChange(e) {
         const file = e.target.files[0];
-        setUserRecipe((prevState) => ({
-          ...prevState,
-          imgUrl: file, // Puoi gestire il file caricato qui
-        }));
+        setUserRecipe({...userRecipe, imgUrl: file});
+        console.log(userRecipe.imgUrl)
     }
 
     
@@ -77,9 +74,13 @@ export default function Page1(){
 
         
 
-        console.log(userRecipe)
-        // setUserRecipe(recipeObj)
     }
+
+    useEffect(()=>{
+        userRecipe.imgUrl ?
+            console.log(userRecipe.imgUrl) :
+            console.log('immagine  non cè')
+    },[userRecipe.imgUrl])
 
     
     return(
@@ -98,20 +99,22 @@ export default function Page1(){
                     </p>
                 </div>
                 <div className="personal-area-container12">
-                    <form action="">
-                        <label for="creataDa">Ricetta creata da</label><br/>
+                    <Form  method="post" encType="multipart/form-data" >
+                        
+                        <label htmlFor="creataDa">Ricetta creata da</label><br/>
                         <input type="text" name="creataDa" placeholder="Il tuo nome" value={userRecipe.creataDa} onChange={handleChange} /><br/><br/>
 
-                        <label for="email">Email</label><br/>
+                        <label htmlFor="email">Email</label><br/>
                         <input type="email" name="email" placeholder="La tua email" value={userRecipe.email} onChange={handleChange} /><br/><br/>
 
-                        <label for="name">Titolo ricetta</label><br/>
+                        <label htmlFor="name">Titolo ricetta</label><br/>
                         <input type="text" name="name" placeholder="Inserisci titolo" value={userRecipe.name} onChange={handleChange} /><br/><br/>
                         
-                        <label for="imgUrl">Inserisci immagine</label><br />
-                        <input type="file" accept="image/*" name="imgUrl"  style={{color:"white"}} onChange={handleImageChange}/><br/><br/>
-                        
-                        <label for="type">Tipo di ricetta</label><br/>
+                        <label htmlFor="imgUrl">Inserisci immagine</label><br />
+                        {/* <input type="file" accept="image/*" name="imgUrl"  style={{color:"white"}} onChange={handleImageChange}/><br/><br/> */}
+                        <input type="file" accept="image/*" name="imgUrl" onChange={handleImageChange} /><br/><br/>
+
+                        <label htmlFor="type">Tipo di ricetta</label><br/>
                         <select name="type" value={userRecipe.type} onChange={handleChange}>
                             <option value=""> Seleziona </option>
                             <option value="Antipasto"> Antipasto </option>
@@ -121,7 +124,7 @@ export default function Page1(){
                         </select><br/><br/>
 
 
-                        <label for="ingredients">Ingredienti (Separali da una virgola)</label><br/>
+                        <label htmlFor="ingredients">Ingredienti (Separali da una virgola)</label><br/>
                         <textarea 
                             name="ingredients" 
                             value={userRecipe.ingredients} 
@@ -130,7 +133,7 @@ export default function Page1(){
                         </textarea><br /><br />
 
 
-                        <label for="instructions">Istruzioni</label><br/>
+                        <label htmlFor="instructions">Istruzioni</label><br/>
                         <textarea 
                             name="instructions"
                             value={userRecipe.instructions} 
@@ -138,14 +141,14 @@ export default function Page1(){
                         ></textarea><br /><br />
 
 
-                        <label for="notes">Note</label><br/>
+                        <label htmlFor="notes">Note</label><br/>
                         <textarea 
                             name="notes" 
                             value={userRecipe.notes} 
                             onChange={handleChange} 
                         ></textarea><br /><br />
 
-                        <label for="prepTime">Tempo di preparazione (indicare secondi, minuti e ore con s,m,h)</label><br/>
+                        <label htmlFor="prepTime">Tempo di preparazione (indicare secondi, minuti e ore con s,m,h)</label><br/>
                         <input 
                             type="text" 
                             name="prepTime"
@@ -154,7 +157,7 @@ export default function Page1(){
                             style={{width:"25%", height:"32px", marginRight:"10px"}} 
                         /><br/><br/>
 
-                        <label for="cookingTime">Tempo di cottura (indicare secondi, minuti e ore con s,m,h)</label><br/>
+                        <label htmlFor="cookingTime">Tempo di cottura (indicare secondi, minuti e ore con s,m,h)</label><br/>
                         <input 
                             type="text"
                             name="cookingTime" 
@@ -164,8 +167,8 @@ export default function Page1(){
                         /><br/><br/>
                         
 
-                        <button  onClick={handleSubmit}>Carica ricetta</button>
-                    </form>
+                        <button type="submit" onSubmit={handleSubmit}>Carica ricetta</button>
+                    </Form>
                 </div>
             </div>
             
