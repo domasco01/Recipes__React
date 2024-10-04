@@ -19,7 +19,7 @@ export default function LayoutMenu(){
                     <NavLink to="/contact"className={({ isActive }) => (isActive ? "link-active" : "menu-link")}>Contatti</NavLink>
                     <NavLink to="/support"className={({ isActive }) => (isActive ? "link-active" : "menu-link")}>About us</NavLink>
                     {auth === 'auth'?(
-                        <NavLink to="/page1"className={({ isActive }) => (isActive ? "link-active" : "menu-link")}>Area Personale</NavLink>
+                        <NavLink to="/personalArea"className={({ isActive }) => (isActive ? "link-active" : "menu-link")}>Area Personale</NavLink>
                     ):null }
                 </div>
                 <div className="side-link-container2">

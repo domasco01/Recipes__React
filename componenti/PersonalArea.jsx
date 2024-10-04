@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Form } from "react-router-dom"
-export default function Page1(){
+export default function PersonalArea(){
 
 
 
