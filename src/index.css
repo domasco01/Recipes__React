@@ -1028,3 +1028,147 @@ a{
     cursor:pointer;
     background-color:#FEBD2F;
 }
+
+.personal-area-container2{
+    width:100%;
+    padding:30px;
+    display:flex;
+    justify-content:flex-start;
+}
+
+
+/* STILE PAGINA ABOUT-US */
+
+.aboutus-page-container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+.aboutus-page-container1{
+    width:100%;
+    height:30vh;
+    background-color:#F5F3EF;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+
+.aboutus-page-container1 h1{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.aboutus-page-container1 p{
+    width:50%;
+    font-size: 20px; 
+    font-weight:bold;
+    line-height: 1.6; 
+    color: #333; 
+    text-align:center;
+}
+
+.aboutus-page-container2{
+    width:100%;
+    height:60vh;
+    display:flex;
+}
+
+.aboutus-page-container21{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    padding:10%;
+    background-color:#F5F3EF;
+    gap:15px;
+}
+
+.aboutus-page-container22{
+    width:50%;
+    height:100%;
+    background-color:#FEBD2F;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.aboutus-page-container21 h2{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+
+.aboutus-page-container21 p {
+    font-size: 16px; 
+    font-weight:bold;
+    line-height: 1.6; 
+    color: #333; 
+}
+
+.aboutus-page-container221{
+    width:60%;
+    height:90%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;   
+	grid-template-rows: 49% 49%;      
+	gap: 2%;
+}
+
+#aboutus-img1{
+    width:100%;
+    height:100%;
+    grid-row:1/2;
+    grid-column:1;
+    object-fit:cover;
+}
+
+#aboutus-img2{
+    width:100%;
+    height:100%;
+    grid-row:1/2;
+    grid-column:2;
+    object-fit:cover;
+}
+
+#aboutus-img3{
+    width:100%;
+    height:100%;
+    grid-row:2;
+    grid-column:1/3;
+    object-fit:cover;
+}
+
+.aboutus-page-container3{
+    width:100%;
+    height:80vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#F5F3EF;
+    padding:5%;
+}
+
+.aboutus-page-container3 h2{
+    font-size: 40px;
+    font-weight:bold;
+}
+
+.aboutus-page-container31{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:150px;
+}
+
+.aboutus-page-container31 p{
+    width:30%;
+    font-size: 16px; 
+    font-weight:bold;
+    line-height: 1.6; 
+    color: #333; 
+    text-align:center;
+}

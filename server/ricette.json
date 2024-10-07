@@ -749,5 +749,21 @@
     "prepTime": "1h",
     "cookingTime": "4m",
     "imgUrl": "../server/images\\1728032866909-errorPage2 (1).svg"
+  },
+  {
+    "id": 44,
+    "creataDa": "domenico",
+    "email": "domenicoascolese0@gmail.com",
+    "name": "napoli100",
+    "type": "Antipasto",
+    "ingredients": [
+      "dv",
+      "ef"
+    ],
+    "instructions": "eff3",
+    "notes": "rr",
+    "prepTime": "1h",
+    "cookingTime": "2m",
+    "imgUrl": "../server/images\\1728285743568-foto-cibo.jpg"
   }
 ]

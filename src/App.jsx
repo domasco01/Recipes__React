@@ -2,7 +2,7 @@ import { createBrowserRouter,createRoutesFromElements, Route, RouterProvider } f
 import './index.css'
 import Home from "../componenti/Home"
 import Contact from "../componenti/Contact"
-import Support from '../componenti/Support'
+import AboutUs from '../componenti/AboutUs'
 import LayoutMenu from "../componenti/LayoutMenu"
 import Recipes from "../componenti/Recipes"
 import RecipeDetail from "../componenti/RecipeDetail"
@@ -22,10 +22,10 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route path="/" element={<Home />} loader={getRecipes} />
       <Route path="recipes" element={<Recipes />} loader={getRecipes} />
       <Route path="contact" element={<Contact />} />
-      <Route path="support" element={<Support />} />
+      <Route path="support" element={<AboutUs />} />
       <Route path="recipes/:id" element={<RecipeDetail />} loader={loaderRecipeDetail} />
       <Route element={<Auth />}>
-        <Route path="personalArea" element={<PersonalArea />} action={recipeAction}/>
+        <Route path="personalArea" element={<PersonalArea />} action={recipeAction} loader={getRecipes}/>
       </Route>
     </Route>
     <Route path="login" element={<Login />} />

@@ -41,10 +41,9 @@ export default function Login(){
             const data = await response.json();
 
             if (response.ok) {
-                // Login riuscito, naviga verso la home
-                navigate("/");
+                // Login riuscito, naviga verso l'area personale
+                navigate("/personalArea", {state: {username : formData.email}});
                 login();
-                console.log('Login riuscito:', data);
             } else {
                 // Gestisci il login fallito
                 console.error('Errore di login:', data.message);

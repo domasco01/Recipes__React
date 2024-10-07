@@ -1,8 +1,13 @@
 import { useEffect, useState } from "react";
-import { Form } from "react-router-dom"
+import { Form, useLoaderData, useLocation, Link } from "react-router-dom"
+import Card from "./Card";
 export default function PersonalArea(){
 
-
+    const recipes = useLoaderData(); 
+    console.log(recipes)
+    const location = useLocation();
+    const username  = location.state ;
+    console.log(username)
 
     const recipeObj = {
         creataDa : "",
@@ -111,7 +116,6 @@ export default function PersonalArea(){
                         <input type="text" name="name" placeholder="Inserisci titolo" value={userRecipe.name} onChange={handleChange} /><br/><br/>
                         
                         <label htmlFor="imgUrl">Inserisci immagine</label><br />
-                        {/* <input type="file" accept="image/*" name="imgUrl"  style={{color:"white"}} onChange={handleImageChange}/><br/><br/> */}
                         <input type="file" accept="image/*" name="imgUrl" onChange={handleImageChange} /><br/><br/>
 
                         <label htmlFor="type">Tipo di ricetta</label><br/>
@@ -170,6 +174,21 @@ export default function PersonalArea(){
                         <button type="submit" onSubmit={handleSubmit}>Carica ricetta</button>
                     </Form>
                 </div>
+            </div>
+            <br/>
+            <br/>
+            <h1>Le tue ricette</h1>
+            <div className="personal-area-container2">
+                {
+                    recipes ?
+                        recipes.filter((recipe)=>
+                            recipe.email === username.username
+                        ).map((rec)=>(
+                            <Link to={`/recipes/${rec.id}`}> <Card imgUrl={rec.imgUrl}  name={rec.name} /></Link>
+                        ))
+                    :
+                        null
+                }
             </div>
             
         </div>
